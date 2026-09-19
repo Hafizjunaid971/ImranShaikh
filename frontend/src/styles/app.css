@@ -1,0 +1,337 @@
+/* ==========================================================================
+   کراچی مرغی سپلائی — لیجر
+   ڈیزائن: کاغذی رجسٹر (بہی کھاتہ) — لکیریں، گہری سیاہی، اور ایک نمایاں عدد
+   ========================================================================== */
+
+:root {
+  --ink: #1b2a3a;          /* رجسٹر کی سیاہی */
+  --ink-soft: #46596c;
+  --ink-faint: #8a99a8;
+  --paper: #f6f4ef;        /* کاغذ */
+  --paper-2: #fffefb;
+  --rule: #ddd8cb;         /* رجسٹر کی لکیر */
+  --rule-strong: #bdb6a4;
+  --credit: #1d6b4b;       /* ریکوری / جمع */
+  --debit: #a63a2b;        /* بقایہ / نکالا */
+  --gold: #c9962b;         /* دن کا نمایاں عدد */
+  --gold-soft: #f6ecd2;
+  --shadow: 0 1px 0 var(--rule), 0 8px 24px -18px rgba(27, 42, 58, 0.55);
+  --radius: 4px;
+  --nav-w: 232px;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Noto Naskh Arabic', 'Segoe UI', Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===================================================== دو لسانی سپورٹ =====
+   اردو (dir=rtl): Noto Naskh Arabic، دائیں سے بائیں
+   English (dir=ltr): IBM Plex Sans، بائیں سے دائیں — sidebar بھی الٹ جاتا ہے
+   ==================================================================== */
+body.lang-en {
+  font-family: 'IBM Plex Sans', 'Segoe UI', Tahoma, sans-serif;
+}
+html[dir='ltr'] .nav-brand { font-family: 'IBM Plex Sans', sans-serif; font-size: 1.05rem; line-height: 1.5; }
+html[dir='ltr'] .login-title { font-family: 'IBM Plex Sans', sans-serif; font-size: 1.3rem; line-height: 1.5; }
+/* رجسٹر کے پنڈ (rail) اور اسٹیٹ کارڈ ہمیشہ اُلٹ سائیڈ پر ہلکا سا شفٹ ہوتے ہیں — dir خود سنبھال لیتا ہے */
+
+
+/* اعداد ہمیشہ ایک چوڑائی کے — کالم سیدھے رہیں */
+.num, td.num, input[type='number'], .stat-value, table td, table th {
+  font-variant-numeric: tabular-nums;
+}
+.num, input[type='number'], .stat-value {
+  font-family: 'IBM Plex Sans', 'Noto Naskh Arabic', sans-serif;
+  direction: ltr;
+  unicode-bidi: plaintext;
+}
+
+h1, h2, h3 { margin: 0 0 .4rem; font-weight: 600; letter-spacing: 0; }
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.15rem; }
+h3 { font-size: 1rem; }
+
+a { color: var(--ink); }
+
+/* ------------------------------------------------------------------ shell */
+.shell { display: flex; min-height: 100vh; }
+
+.nav {
+  width: var(--nav-w);
+  flex: 0 0 var(--nav-w);
+  background: var(--ink);
+  color: #e8eef4;
+  padding: 1.1rem .8rem;
+  display: flex;
+  flex-direction: column;
+  gap: .15rem;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  /* .nav کو JSX میں سب سے پہلے رکھا گیا ہے — RTL میں یہ خود دائیں پر آتا ہے،
+     LTR میں خود بائیں پر۔ کسی order ہیک کی ضرورت نہیں۔ */
+}
+.nav-brand {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  font-size: 1.15rem;
+  line-height: 2.2;
+  padding: .2rem .6rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .14);
+  margin-bottom: .7rem;
+}
+.nav a {
+  display: block;
+  padding: .42rem .7rem;
+  color: #c3d0dc;
+  text-decoration: none;
+  border-radius: var(--radius);
+  font-size: .95rem;
+}
+.nav a:hover { background: rgba(255, 255, 255, .07); color: #fff; }
+.nav a.active { background: var(--gold); color: #24170a; font-weight: 600; }
+.nav-foot {
+  margin-top: auto;
+  padding-top: .9rem;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  font-size: .85rem;
+  color: #9fb0c0;
+}
+
+.main { flex: 1; min-width: 0; padding: 1.4rem 1.6rem 5.5rem; }
+
+.page-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-bottom: .7rem;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 1.1rem;
+}
+.page-head .sub { color: var(--ink-soft); font-size: .9rem; }
+
+/* ------------------------------------------------------------------ cards */
+.card {
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow);
+}
+.card + .card { margin-top: 1rem; }
+.card-title {
+  font-weight: 600;
+  padding-bottom: .5rem;
+  margin-bottom: .7rem;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .6rem;
+}
+
+.grid { display: grid; gap: 1rem; }
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.grid-4 { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+
+.stat { background: var(--paper-2); border: 1px solid var(--rule); border-radius: var(--radius); padding: .8rem .9rem; }
+.stat-label { font-size: .82rem; color: var(--ink-soft); }
+.stat-value { font-size: 1.45rem; font-weight: 600; line-height: 1.35; }
+.stat-note { font-size: .78rem; color: var(--ink-faint); }
+.stat.gold { background: var(--gold-soft); border-color: #e4cf9d; }
+.stat.gold .stat-value { color: #7a5a10; }
+
+/* ----------------------------------------------------------------- tables */
+/* ہر ٹیبل کو اپنا محدود سکرول-باکس ملتا ہے — اسی وجہ سے ہیڈر ہر صفحے پر
+   قابلِ اعتماد طریقے سے چپکا رہتا ہے (پہلے صرف روزانہ شیٹ کو یہ ملا ہوا تھا،
+   باقی صفحوں پر پورا پیج سکرول ہوتا تھا جہاں sticky ہمیشہ درست کام نہیں کرتا)۔
+   کسی صفحے پر کوئی انلائن max-height دیا گیا ہو (جیسے روزانہ شیٹ کی 62vh) تو
+   وہ اِس ڈیفالٹ کو خود بخود override کر دیتی ہے۔ */
+.table-wrap {
+  overflow: auto;
+  max-height: 68vh;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper-2);
+}
+table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+thead th {
+  background: var(--ink);
+  color: #eaf0f6;
+  font-weight: 600;
+  text-align: right;
+  padding: .5rem .55rem;
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  font-size: .86rem;
+}
+tbody td { padding: .32rem .55rem; border-bottom: 1px solid var(--rule); }
+tbody tr:nth-child(even) { background: #fbfaf6; }
+tbody tr:hover { background: #f1eee5; }
+tbody tr.dim td { color: var(--ink-faint); }
+td.num, th.num { text-align: left; }
+tfoot td {
+  background: #efece3;
+  border-top: 2px solid var(--ink);
+  font-weight: 700;
+  padding: .5rem .55rem;
+  position: sticky;
+  bottom: 0;
+}
+/* پہلا کالم (نام) سائیڈ پر بھی چپکا رہتا ہے — اِسے واضح پس منظر دیا گیا ہے
+   (inherit کے بجائے) تاکہ سکرول کرتے وقت نیچے کی قطاریں اس کے پیچھے سے نظر نہ آئیں */
+.sticky-name { position: sticky; right: 0; z-index: 1; background: var(--paper-2); }
+tbody tr:nth-child(even) .sticky-name { background: #fbfaf6; }
+tbody tr:hover .sticky-name { background: #f1eee5; }
+html[dir='ltr'] .sticky-name { right: auto; left: 0; }
+/* ہیڈر کی نام والی خانہ — اوپر اور سائیڈ دونوں طرف چپکتی ہے، اس لیے سب سے اوپر رہے */
+thead .sticky-name { background: var(--ink); z-index: 4; }
+
+.credit { color: var(--credit); }
+.debit { color: var(--debit); }
+.muted { color: var(--ink-faint); }
+
+/* ----------------------------------------------------------------- inputs */
+label { display: block; font-size: .85rem; color: var(--ink-soft); margin-bottom: .15rem; }
+input, select, textarea {
+  width: 100%;
+  padding: .38rem .5rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+  border-color: var(--gold);
+}
+input.cell {
+  border: 1px solid transparent;
+  background: transparent;
+  padding: .2rem .35rem;
+  text-align: left;
+  direction: ltr;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+input.cell:hover { border-color: var(--rule-strong); background: #fff; }
+input.cell:focus { background: #fffdf4; }
+input[readonly] { background: #f1efe8; color: var(--ink-soft); }
+
+.field-row { display: flex; gap: .7rem; flex-wrap: wrap; align-items: flex-end; }
+.field { min-width: 150px; flex: 1; }
+
+/* ---------------------------------------------------------------- buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .42rem .95rem;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: #fff;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font: inherit;
+  font-size: .92rem;
+}
+.btn:hover { background: #24384c; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn.ghost { background: transparent; color: var(--ink); }
+.btn.ghost:hover { background: #ebe7dc; }
+.btn.gold { background: var(--gold); border-color: #a87c1c; color: #241a05; font-weight: 600; }
+.btn.gold:hover { background: #d8a534; }
+.btn.danger { background: var(--debit); border-color: var(--debit); }
+.btn.sm { padding: .2rem .55rem; font-size: .84rem; }
+
+.chip {
+  display: inline-block;
+  padding: .05rem .5rem;
+  border-radius: 999px;
+  font-size: .78rem;
+  border: 1px solid var(--rule-strong);
+  background: #fff;
+}
+.chip.ok { background: #e6f2ec; border-color: #a9cfbc; color: var(--credit); }
+.chip.warn { background: #fbeae7; border-color: #e0b3aa; color: var(--debit); }
+
+/* ------------------------------------------------------- totals rail (pin) */
+.rail {
+  position: fixed;
+  bottom: 0;
+  right: var(--nav-w);
+  left: 0;
+  background: var(--ink);
+  color: #eaf0f6;
+  padding: .55rem 1.6rem;
+  display: flex;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0 -8px 24px -18px #000;
+  z-index: 20;
+}
+/* nav LTR میں بائیں پر ہے — پٹی نے بھی بائیں طرف جگہ چھوڑنی ہے */
+html[dir='ltr'] .rail { right: 0; left: var(--nav-w); }
+.rail-item { display: flex; flex-direction: column; line-height: 1.35; }
+.rail-item span { font-size: .74rem; color: #9fb0c0; }
+.rail-item b { font-size: 1.02rem; font-family: 'IBM Plex Sans', sans-serif; direction: ltr; }
+.rail-item.hero b { font-size: 1.35rem; color: var(--gold); }
+.rail .spacer { margin-inline-start: auto; }
+
+/* ------------------------------------------------------------------ login */
+.login-wrap { display: grid; place-items: center; min-height: 100vh; padding: 1rem; }
+.login-card { width: 100%; max-width: 370px; }
+.login-title { font-family: 'Noto Nastaliq Urdu', serif; font-size: 1.4rem; line-height: 2.4; text-align: center; }
+
+/* ------------------------------------------------------------------ misc */
+.toast {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 60;
+  background: var(--ink);
+  color: #fff;
+  padding: .6rem 1rem;
+  border-radius: var(--radius);
+  max-width: 380px;
+}
+.toast.err { background: var(--debit); }
+.empty { padding: 2.2rem 1rem; text-align: center; color: var(--ink-faint); }
+.loading { padding: 1.4rem; color: var(--ink-soft); }
+.split { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; }
+.right { margin-inline-start: auto; }
+
+@media (max-width: 860px) {
+  .shell { flex-direction: column; } /* nav (اب DOM میں پہلے) اوپر ایک پٹی کی طرح آتا ہے */
+  .nav { width: 100%; height: auto; position: static; flex-direction: row; overflow-x: auto; }
+  .nav-brand, .nav-foot { display: none; }
+  .main { padding: 1rem .8rem 6rem; }
+  .rail { right: 0; left: 0; } /* موبائل پر nav سائیڈ بار نہیں، پوری پٹی خالی چھوڑنے کی ضرورت نہیں */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+@media print {
+  .nav, .rail, .btn { display: none !important; }
+  .main { padding: 0; }
+  body { background: #fff; font-size: 12px; }
+  .card { box-shadow: none; border: none; }
+}

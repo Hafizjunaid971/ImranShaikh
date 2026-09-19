@@ -1,0 +1,10055 @@
+{
+ "customers": [
+  {
+   "name": "انیس انصاری 3 نمبر",
+   "openingBalance": 17564638.09,
+   "sortOrder": 1
+  },
+  {
+   "name": "حازق 3 نمبر",
+   "openingBalance": 1089271.9,
+   "sortOrder": 2
+  },
+  {
+   "name": "شعیب 3 نمبر",
+   "openingBalance": 5802488.8,
+   "sortOrder": 3
+  },
+  {
+   "name": "شاکر 3 نمر",
+   "openingBalance": 20685.8,
+   "sortOrder": 4
+  },
+  {
+   "name": "شاھ زیب",
+   "openingBalance": 85558.7,
+   "sortOrder": 5
+  },
+  {
+   "name": "اسامہ  5-ایل",
+   "openingBalance": 25610.7,
+   "sortOrder": 6
+  },
+  {
+   "name": "مظفر چشتی",
+   "openingBalance": 960073.7,
+   "sortOrder": 7
+  },
+  {
+   "name": "مزمل",
+   "openingBalance": 384960.6,
+   "sortOrder": 8
+  },
+  {
+   "name": "کاشف کھتری",
+   "openingBalance": 42199.0,
+   "sortOrder": 9
+  },
+  {
+   "name": "ایاز کھتری",
+   "openingBalance": 2031313.2,
+   "sortOrder": 10
+  },
+  {
+   "name": "دلاور کھتری",
+   "openingBalance": 96.8,
+   "sortOrder": 11
+  },
+  {
+   "name": "ازلان جیند کتھری",
+   "openingBalance": 10360.0,
+   "sortOrder": 12
+  },
+  {
+   "name": "سلمان کھتری",
+   "openingBalance": 829.8,
+   "sortOrder": 13
+  },
+  {
+   "name": "رمضان کھتری",
+   "openingBalance": 9523.6,
+   "sortOrder": 14
+  },
+  {
+   "name": "طاہر کھتری",
+   "openingBalance": 17512.8,
+   "sortOrder": 15
+  },
+  {
+   "name": "جمیل وحید بلوچ",
+   "openingBalance": 315.7,
+   "sortOrder": 16
+  },
+  {
+   "name": "حسن 11-ایف",
+   "openingBalance": 50.3,
+   "sortOrder": 17
+  },
+  {
+   "name": "فیصل 11-ایف",
+   "openingBalance": 62551.9,
+   "sortOrder": 18
+  },
+  {
+   "name": "ذیشان نالا",
+   "openingBalance": 7503.8,
+   "sortOrder": 19
+  },
+  {
+   "name": "گلفام نمبر 5",
+   "openingBalance": 85669.2,
+   "sortOrder": 20
+  },
+  {
+   "name": "عادل نالہ",
+   "openingBalance": 375858.2,
+   "sortOrder": 21
+  },
+  {
+   "name": "ارشاد",
+   "openingBalance": 349346.2,
+   "sortOrder": 22
+  },
+  {
+   "name": "حارث",
+   "openingBalance": 609063.8,
+   "sortOrder": 23
+  },
+  {
+   "name": "عادل صابر نالا",
+   "openingBalance": 154209.2,
+   "sortOrder": 24
+  },
+  {
+   "name": "مہراب کھتری گڈو 3 نمبر",
+   "openingBalance": 3415.8,
+   "sortOrder": 25
+  },
+  {
+   "name": "بابر بلا کتھری",
+   "openingBalance": 34416.0,
+   "sortOrder": 26
+  },
+  {
+   "name": "ظہر گلشن",
+   "openingBalance": 46647.4,
+   "sortOrder": 27
+  },
+  {
+   "name": "فیضان ناگن",
+   "openingBalance": 1338678.5,
+   "sortOrder": 28
+  },
+  {
+   "name": "ارسالان ناگن",
+   "openingBalance": 6790.2,
+   "sortOrder": 29
+  },
+  {
+   "name": "احمد بفرزون",
+   "openingBalance": 61314.6,
+   "sortOrder": 30
+  },
+  {
+   "name": "بلال k-2",
+   "openingBalance": 952222.8,
+   "sortOrder": 31
+  },
+  {
+   "name": "ندیم قریشی",
+   "openingBalance": 24617.6,
+   "sortOrder": 32
+  },
+  {
+   "name": "فرقان وارثی",
+   "openingBalance": 954587.6,
+   "sortOrder": 33
+  },
+  {
+   "name": "ایا ز کھتری u p",
+   "openingBalance": 32846.4,
+   "sortOrder": 34
+  },
+  {
+   "name": "فیصل وارثی",
+   "openingBalance": 1724733.4,
+   "sortOrder": 35
+  },
+  {
+   "name": "نعمان فیضان",
+   "openingBalance": 5468.2,
+   "sortOrder": 36
+  },
+  {
+   "name": "طارق سندھ ہوٹل",
+   "openingBalance": 5509.6,
+   "sortOrder": 37
+  },
+  {
+   "name": "دانیش ناگن",
+   "openingBalance": 1076561.0,
+   "sortOrder": 38
+  },
+  {
+   "name": "جنید کھتری",
+   "openingBalance": 169305.6,
+   "sortOrder": 39
+  },
+  {
+   "name": "علی کھتری",
+   "openingBalance": 15303.4,
+   "sortOrder": 40
+  },
+  {
+   "name": "وحید لودھی 3 نمبر",
+   "openingBalance": 86182.4,
+   "sortOrder": 41
+  },
+  {
+   "name": "عظیم نا گن",
+   "openingBalance": 5371.8,
+   "sortOrder": 42
+  },
+  {
+   "name": "راجہ ناگن 9946",
+   "openingBalance": 10065.9,
+   "sortOrder": 43
+  },
+  {
+   "name": "دلدار بارادری 11-بی",
+   "openingBalance": 5287.6,
+   "sortOrder": 44
+  },
+  {
+   "name": "دانیش ناگن ارسلان",
+   "openingBalance": 270338.4,
+   "sortOrder": 45
+  },
+  {
+   "name": "تحسین آڑتی",
+   "openingBalance": 31057.6,
+   "sortOrder": 46
+  },
+  {
+   "name": "اظہر قریشی 8 نمبر",
+   "openingBalance": 15404.41,
+   "sortOrder": 47
+  },
+  {
+   "name": "کامران گودرا",
+   "openingBalance": 49834.2,
+   "sortOrder": 48
+  },
+  {
+   "name": "امان ایاز کھتری",
+   "openingBalance": 27742.0,
+   "sortOrder": 49
+  },
+  {
+   "name": "فہید 2-کے",
+   "openingBalance": 391938.0,
+   "sortOrder": 50
+  },
+  {
+   "name": "کامل کھتری",
+   "openingBalance": 8204.4,
+   "sortOrder": 51
+  },
+  {
+   "name": "شاہد 11-ایف احمد",
+   "openingBalance": -0.2,
+   "sortOrder": 52
+  },
+  {
+   "name": "ہارون 11- ایف",
+   "openingBalance": 499.8,
+   "sortOrder": 53
+  },
+  {
+   "name": "بلال 3 نمبر",
+   "openingBalance": 1354.3,
+   "sortOrder": 54
+  },
+  {
+   "name": "مدصر  کھتری نیوں",
+   "openingBalance": 36109.6,
+   "sortOrder": 55
+  },
+  {
+   "name": "فرید  E-5 دانش",
+   "openingBalance": -4.0,
+   "sortOrder": 56
+  },
+  {
+   "name": "فیضان 11-ایف",
+   "openingBalance": 33528.0,
+   "sortOrder": 57
+  },
+  {
+   "name": "جاوید کھتری",
+   "openingBalance": 11182.8,
+   "sortOrder": 58
+  },
+  {
+   "name": "عدنان 11-جے",
+   "openingBalance": 48.9,
+   "sortOrder": 59
+  },
+  {
+   "name": "رضوان 403 سمامہ",
+   "openingBalance": -63.4,
+   "sortOrder": 60
+  },
+  {
+   "name": "اسامہ 11-ایف",
+   "openingBalance": 21399.7,
+   "sortOrder": 61
+  },
+  {
+   "name": "حمزا یو پی",
+   "openingBalance": 0.4,
+   "sortOrder": 62
+  },
+  {
+   "name": "مہران شان گودرا",
+   "openingBalance": -4.0,
+   "sortOrder": 63
+  }
+ ],
+ "sheets": [
+  {
+   "date": "2026-09-01",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      714.8
+     ],
+     "rate": 297.0,
+     "recoveries": [
+      100000.0,
+      25000.0,
+      8000.0,
+      15000.0,
+      10800.0,
+      85000.0,
+      31000.0,
+      80000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      72.9
+     ],
+     "rate": 300.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      45.0
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      1150.0,
+      2000.0,
+      9500.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      46.6
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      244.8
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      58000.0,
+      15000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      151.7
+     ],
+     "rate": 296.0,
+     "recoveries": [
+      41000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      75.8
+     ],
+     "rate": 298.0,
+     "recoveries": []
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      65.3
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      19600.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      21.5
+     ],
+     "rate": 297.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      27.5
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      14900.0,
+      8000.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      41000.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      76.7
+     ],
+     "rate": 297.0,
+     "recoveries": [
+      50000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      47.4
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      270.5
+     ],
+     "rate": 296.0,
+     "recoveries": [
+      98000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      244.6
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      40000.0,
+      9100.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      87.4
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      28000.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      22.5
+     ],
+     "rate": 296.0,
+     "recoveries": [
+      30000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      124.5
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      37500.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [
+      112.3
+     ],
+     "rate": 298.0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      27.5
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      8000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      99.1
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      122.0
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      34000.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      44.5
+     ],
+     "rate": 296.0,
+     "recoveries": [
+      13000.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      25.8
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      7700.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      43.5
+     ],
+     "rate": 296.0,
+     "recoveries": [
+      10870.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      24.0
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      7150.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      76.9
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      24000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      77.0
+     ],
+     "rate": 298.0,
+     "recoveries": []
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      46.5
+     ],
+     "rate": 296.0,
+     "recoveries": [
+      5000.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      21.9
+     ],
+     "rate": 298.0,
+     "recoveries": [
+      6500.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [
+      50.8
+     ],
+     "rate": 298.0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 266.0,
+     "weight": 3125.0
+    }
+   ],
+   "expenses": [
+    57600.0,
+    3000.0,
+    350.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 258.0,
+    "manualShortValue": 6166.0
+   },
+   "excelTotals": {
+    "weight": 3111.3000000000006,
+    "amount": 925944.8000000002,
+    "prev": 37147588.49548002,
+    "total": 38073533.29548003,
+    "recovery": 1018770,
+    "closing": 37054763.29548003,
+    "avgRate": 297.60704528653616,
+    "purchaseAmount": 831250,
+    "gross": 94694.80000000016,
+    "expense": 61150,
+    "net": 33544.80000000016,
+    "excessShort": -13.699999999999363,
+    "costingPerKg": 21.63597210169382,
+    "costingRate": 279.6359721016938
+   }
+  },
+  {
+   "date": "2026-09-02",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1238.3
+     ],
+     "rate": 313.0,
+     "recoveries": [
+      170000.0,
+      17000.0,
+      15000.0,
+      95000.0,
+      52000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      48.0
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      48.9
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      15500.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      248.1
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      72000.0,
+      20000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      145.0
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      4600.0,
+      44500.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      20.8
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      9200.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      44.0
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      36400.0
+     ]
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      50.7
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      33.0
+     ],
+     "rate": 313.0,
+     "recoveries": [
+      6750.0,
+      10000.0
+     ]
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      39.5
+     ],
+     "rate": 316.0,
+     "recoveries": []
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      17000.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      82.7
+     ],
+     "rate": 313.0,
+     "recoveries": [
+      30000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      49.2
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      306.5
+     ],
+     "rate": 312.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      224.5
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      72000.0,
+      8700.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      96.0
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      30000.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      43.5
+     ],
+     "rate": 312.0,
+     "recoveries": []
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      132.0
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      42000.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      25000.0
+     ]
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      38.0
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      10000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      47.1
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      17000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      132.5
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      22500.0,
+      20500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      53.0
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      16710.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      23.5
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      7400.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      23.5
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      9340.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      25.5
+     ],
+     "rate": 314.0,
+     "recoveries": []
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      73.2
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      23000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      50.1
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      38700.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      24.0
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      3500.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      48.0
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      45140.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      15250.0
+     ]
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 282.0,
+     "weight": 3415.0
+    }
+   ],
+   "expenses": [
+    57900.0,
+    3000.0,
+    450.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 290.0,
+    "manualShortValue": 8671.0
+   },
+   "excelTotals": {
+    "weight": 3389.0999999999995,
+    "amount": 1062268.4,
+    "prev": 37054763.29548003,
+    "total": 38117031.69548003,
+    "recovery": 1068690,
+    "closing": 37048341.69548003,
+    "avgRate": 313.43672361393885,
+    "purchaseAmount": 963030,
+    "gross": 99238.3999999999,
+    "expense": 61550,
+    "net": 37688.39999999991,
+    "excessShort": -25.900000000000546,
+    "costingPerKg": 20.719660086748696,
+    "costingRate": 310.7196600867487
+   }
+  },
+  {
+   "date": "2026-09-03",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1008.5
+     ],
+     "rate": 317.0,
+     "recoveries": [
+      9000.0,
+      8000.0,
+      9500.0,
+      95000.0,
+      15000.0,
+      85000.0,
+      40500.0,
+      90000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      47.6
+     ],
+     "rate": 320.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      45.7
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      500.0,
+      14500.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      50.0
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      219.7
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      55000.0,
+      20000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      165.3
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      52000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      26.0
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      14400.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      25.0
+     ],
+     "rate": 318.0,
+     "recoveries": []
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      51.3
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      16400.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [
+      99.5
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      31445.0,
+      315.0
+     ]
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      23.0
+     ],
+     "rate": 317.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      19.0
+     ],
+     "rate": 320.0,
+     "recoveries": [
+      17900.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [
+      151.5
+     ],
+     "rate": 318.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      110.7
+     ],
+     "rate": 317.0,
+     "recoveries": []
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      66.0
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      21000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      382.0
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      200000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      196.3
+     ],
+     "rate": 318.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      78.8
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      25000.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      48.0
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      26000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      112.5
+     ],
+     "rate": 320.0,
+     "recoveries": [
+      36000.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      27.0
+     ],
+     "rate": 320.0,
+     "recoveries": [
+      11000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      49.9
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      146.5
+     ],
+     "rate": 320.0,
+     "recoveries": [
+      19000.0,
+      28000.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      77.0
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      24330.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      25.6
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      8200.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      50.5
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      25.5
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      17400.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      46.8
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      43.6
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      13900.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      25.8
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      6035.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      103.0
+     ],
+     "rate": 316.0,
+     "recoveries": [
+      32500.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      33.6
+     ],
+     "rate": 318.0,
+     "recoveries": [
+      10500.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 283.0,
+     "weight": 3635.0
+    }
+   ],
+   "expenses": [
+    56750.0,
+    3000.0,
+    450.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 283.0,
+    "manualShortValue": 15225.0
+   },
+   "excelTotals": {
+    "weight": 3581.2000000000007,
+    "amount": 1136534,
+    "prev": 37048341.69548003,
+    "total": 38184875.69548002,
+    "recovery": 1116325,
+    "closing": 37068550.69548003,
+    "avgRate": 317.3612197028928,
+    "purchaseAmount": 1028705,
+    "gross": 107829,
+    "expense": 60400,
+    "net": 47429,
+    "excessShort": -53.79999999999927,
+    "costingPerKg": 21.117223277113812,
+    "costingRate": 304.1172232771138
+   }
+  },
+  {
+   "date": "2026-09-04",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      931.7,
+      222.5
+     ],
+     "rate": 311.0,
+     "recoveries": [
+      20000.0,
+      18850.0,
+      9500.0,
+      2500.0,
+      15000.0,
+      110000.0,
+      12000.0,
+      40000.0,
+      130000.0,
+      16300.0,
+      12000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      76.0
+     ],
+     "rate": 314.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      49.7
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      46.1
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      14500.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      282.0
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      74000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      124.5
+     ],
+     "rate": 310.0,
+     "recoveries": [
+      38500.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      71.1
+     ],
+     "rate": 312.0,
+     "recoveries": []
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      8000.0
+     ]
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      50.9
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      32.0
+     ],
+     "rate": 311.0,
+     "recoveries": [
+      17240.0
+     ]
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      32.5
+     ],
+     "rate": 314.0,
+     "recoveries": []
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      50000.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      107.2
+     ],
+     "rate": 311.0,
+     "recoveries": [
+      55000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      53.0
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      15500.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      603.0
+     ],
+     "rate": 310.0,
+     "recoveries": [
+      200000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      408.3
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      123500.0,
+      9200.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      110.7
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      32500.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      25.0
+     ],
+     "rate": 310.0,
+     "recoveries": [
+      8000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      150.8
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      47500.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [
+      48.5
+     ],
+     "rate": 312.0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      49.5
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      49.9
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      19000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      140.5
+     ],
+     "rate": 314.0,
+     "recoveries": [
+      34500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      37.5
+     ],
+     "rate": 310.0,
+     "recoveries": [
+      11000.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      48.4
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      500.0,
+      15100.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      22.1
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      7000.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      49.6
+     ],
+     "rate": 310.0,
+     "recoveries": [
+      15400.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      24.0
+     ],
+     "rate": 312.0,
+     "recoveries": []
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      47.5
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      56.8
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      17500.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      20.0
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      7500.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      48.5
+     ],
+     "rate": 310.0,
+     "recoveries": [
+      15100.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      31.0
+     ],
+     "rate": 312.0,
+     "recoveries": [
+      9500.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 274.0,
+     "weight": 3865.0
+    },
+    {
+     "supplier": "وحید بلوچ آڑتی  سے وزن لیا سپلائ کیلے",
+     "rate": 306.0,
+     "weight": 222.5
+    }
+   ],
+   "expenses": [
+    75650.0,
+    3000.0,
+    450.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 274.0,
+    "manualShortValue": 10055.0
+   },
+   "excelTotals": {
+    "weight": 4050.8,
+    "amount": 1261678.6,
+    "prev": 37068550.69548003,
+    "total": 38330229.295480035,
+    "recovery": 1290690,
+    "closing": 37039539.29548004,
+    "avgRate": 311.4640564826701,
+    "purchaseAmount": 1127095,
+    "gross": 134583.6000000001,
+    "expense": 79300,
+    "net": 55283.60000000009,
+    "excessShort": -36.69999999999982,
+    "costingPerKg": 22.058605707514563,
+    "costingRate": 296.0586057075146
+   }
+  },
+  {
+   "date": "2026-09-05",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1467.2,
+      153.3
+     ],
+     "rate": 301.0,
+     "recoveries": [
+      70000.0,
+      15000.0,
+      40000.0,
+      15000.0,
+      2000.0,
+      120000.0,
+      12700.0,
+      150000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      49.5
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      49.0
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      50.4
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      15500.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      326.1
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      63000.0,
+      16000.0,
+      20000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      205.0
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      56500.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      25.1
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      25000.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      30.5
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      53.4
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      16300.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      29.5
+     ],
+     "rate": 301.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      33.0
+     ],
+     "rate": 304.0,
+     "recoveries": [
+      18000.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [
+      336.6
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      212.4
+     ],
+     "rate": 301.0,
+     "recoveries": []
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      65.2
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      20000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      413.5
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      140000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      203.2
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      70000.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      88.4
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      28500.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      58.0
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      18000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      183.0
+     ],
+     "rate": 304.0,
+     "recoveries": [
+      55630.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      65.0
+     ],
+     "rate": 304.0,
+     "recoveries": [
+      10000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      98.3
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      30500.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      195.2
+     ],
+     "rate": 304.0,
+     "recoveries": [
+      17900.0,
+      42100.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      53.5
+     ],
+     "rate": 300.0,
+     "recoveries": []
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      50.0
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      15100.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      48.5
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      14700.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      84.0
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      25100.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      31.5
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      8000.0,
+      5000.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      75.9
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      23000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      74.0
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      22500.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      22.4
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      5000.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      53.0
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      52.3
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 266.0,
+     "weight": 4770.0
+    },
+    {
+     "supplier": "فیصل آڑتی  سے وزن لیا",
+     "rate": 298.0,
+     "weight": 153.3
+    }
+   ],
+   "expenses": [
+    70300.0,
+    3000.0,
+    450.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 283.0,
+    "manualShortValue": null
+   },
+   "excelTotals": {
+    "weight": 4935.899999999999,
+    "amount": 1488096.8000000003,
+    "prev": 37039539.29548004,
+    "total": 38527636.095480025,
+    "recovery": 1252030,
+    "closing": 37275606.095480025,
+    "avgRate": 301.48438987823914,
+    "purchaseAmount": 1314503.4,
+    "gross": 173593.40000000037,
+    "expense": 73950,
+    "net": 99643.40000000037,
+    "excessShort": 12.599999999998545,
+    "costingPerKg": 14.982070139184348,
+    "costingRate": 297.9820701391844
+   }
+  },
+  {
+   "date": "2026-09-06",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1789.3
+     ],
+     "rate": 281.0,
+     "recoveries": [
+      220000.0,
+      36400.0,
+      15000.0,
+      2000.0,
+      20000.0,
+      130000.0,
+      100000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      50.5
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      80000.0
+     ]
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      48.7
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      13000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      138.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      39000.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      606.2
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      75000.0,
+      85000.0,
+      10000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      380.0
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      111000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      110.0
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      31000.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      78.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      30400.0
+     ]
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      55.0
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      15500.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      49.4
+     ],
+     "rate": 281.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      53.0
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      17000.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      95000.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      107.0
+     ],
+     "rate": 281.0,
+     "recoveries": [
+      15000.0,
+      92000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      49.0
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      397.1
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      100000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      313.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      164500.0,
+      16400.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      126.3
+     ],
+     "rate": 282.0,
+     "recoveries": []
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      98.5
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      28000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      166.5
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      47500.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      10000.0,
+      10000.0
+     ]
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      44.0
+     ],
+     "rate": 284.0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      5000.0
+     ]
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      191.0
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      50000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      169.2
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      20000.0,
+      35000.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      89.0
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      41600.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      84.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      23800.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      55.1
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      11500.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      52.8
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      107.9
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      15100.0,
+      7900.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      188.8
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      53500.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      112.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      31700.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      26.2
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      8500.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      137.2
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      3600.0,
+      35000.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      61.8
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      17000.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 247.0,
+     "weight": 5950.0
+    }
+   ],
+   "expenses": [
+    79460.0,
+    3000.0,
+    1420.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 247.0,
+    "manualShortValue": 3211.0
+   },
+   "excelTotals": {
+    "weight": 5937,
+    "amount": 1670945.5000000002,
+    "prev": 37275606.095480025,
+    "total": 38946551.595480025,
+    "recovery": 1996900,
+    "closing": 36949651.59548003,
+    "avgRate": 281.44610072427156,
+    "purchaseAmount": 1469650,
+    "gross": 201295.50000000023,
+    "expense": 84080,
+    "net": 117215.50000000023,
+    "excessShort": -13,
+    "costingPerKg": 14.70288024254674,
+    "costingRate": 261.7028802425467
+   }
+  },
+  {
+   "date": "2026-09-07",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1272.5
+     ],
+     "rate": 285.0,
+     "recoveries": [
+      50000.0,
+      5000.0,
+      52500.0,
+      20000.0,
+      3000.0,
+      15000.0,
+      80000.0,
+      30000.0,
+      24000.0,
+      140000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      53.4
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      3000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      49.4
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      14500.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      195.7
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      50000.0,
+      20000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      94.2
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      27500.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      25.3
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      51.3
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      14800.0
+     ]
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      48.4
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      28.4
+     ],
+     "rate": 285.0,
+     "recoveries": [
+      22000.0
+     ]
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      31.7
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      9000.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [
+      127.5
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      107.0
+     ],
+     "rate": 285.0,
+     "recoveries": []
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      24.3
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      411.8
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      120000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      211.7
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      50000.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      64.9
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      19000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      169.8
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      49000.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [
+      236.1
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      25000.0
+     ]
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      24.1
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      9000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      135.0
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      38500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      49.4
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      14130.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      26.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      9700.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      53.3
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      7000.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      55.5
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      50.5
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      14500.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      27.9
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      75.8
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      7000.0,
+      14000.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      45.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      12500.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 250.0,
+     "weight": 3740.0
+    }
+   ],
+   "expenses": [
+    72200.0,
+    3000.0,
+    1150.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 250.0,
+    "manualShortValue": null
+   },
+   "excelTotals": {
+    "weight": 3746.700000000001,
+    "amount": 1069528.1,
+    "prev": 36949651.59548003,
+    "total": 38019179.69548003,
+    "recovery": 1029630,
+    "closing": 36989549.69548003,
+    "avgRate": 285.45869698668156,
+    "purchaseAmount": 935000,
+    "gross": 134528.1000000001,
+    "expense": 76550,
+    "net": 57978.10000000009,
+    "excessShort": 6.700000000001182,
+    "costingPerKg": 20.43131288867536,
+    "costingRate": 270.43131288867534
+   }
+  },
+  {
+   "date": "2026-09-08",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      802.2,
+      276.0,
+      263.0
+     ],
+     "rate": 287.0,
+     "recoveries": [
+      120000.0,
+      19000.0,
+      25000.0,
+      15000.0,
+      2000.0,
+      2200.0,
+      40000.0,
+      80000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      33.3
+     ],
+     "rate": 290.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      56.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      16200.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      53.5
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      15500.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      274.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      4000.0,
+      2200.0,
+      47000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      191.1
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      53500.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      27.9
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      8200.0
+     ]
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      49.7
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      14400.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      23.8
+     ],
+     "rate": 287.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      25.6
+     ],
+     "rate": 290.0,
+     "recoveries": []
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      39500.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      87.0
+     ],
+     "rate": 287.0,
+     "recoveries": [
+      57000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      50.9
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      22000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      479.9
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      265.5
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      38500.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      50000.0
+     ]
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      53.2
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      181.1
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      52500.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      44000.0
+     ]
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      27.0
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      11000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      82.9
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      23500.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      144.2
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      19500.0,
+      19500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      55.3
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      15810.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      55.0
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      26.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      9600.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      34.2
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      10000.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      29.5
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      85.0
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      23200.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      74.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      21000.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      8000.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      82.9
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      19300.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      104.6
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 251.0,
+     "weight": 3483.0
+    },
+    {
+     "supplier": "وحید بلوچ آڑتی  سے وزن لیا سپلائ کیلے",
+     "rate": 282.0,
+     "weight": 533.0
+    }
+   ],
+   "expenses": [
+    64690.0,
+    3000.0,
+    1150.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 247.0,
+    "manualShortValue": null
+   },
+   "excelTotals": {
+    "weight": 3996.1,
+    "amount": 1148560.9999999995,
+    "prev": 36989549.69548003,
+    "total": 38138110.69548001,
+    "recovery": 964110,
+    "closing": 37174000.69548001,
+    "avgRate": 287.42048497284844,
+    "purchaseAmount": 1024539,
+    "gross": 124021.99999999953,
+    "expense": 69040,
+    "net": 54981.999999999534,
+    "excessShort": -19.90000000000009,
+    "costingPerKg": 17.276844923800706,
+    "costingRate": 264.2768449238007
+   }
+  },
+  {
+   "date": "2026-09-09",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      999.3,
+      240.0
+     ],
+     "rate": 287.0,
+     "recoveries": [
+      130000.0,
+      15000.0,
+      2000.0,
+      15000.0,
+      18000.0,
+      36000.0,
+      90000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      25.3
+     ],
+     "rate": 290.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      49.0
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      1500.0,
+      3585.0,
+      13000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      53.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      15500.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      235.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      13000.0,
+      72000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      139.3
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      41000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      24.3
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      47.3
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      47.8
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      26.8
+     ],
+     "rate": 287.0,
+     "recoveries": [
+      9240.0,
+      14150.0
+     ]
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      23.8
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      13500.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [
+      142.3
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      41000.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      98.3
+     ],
+     "rate": 287.0,
+     "recoveries": [
+      8000.0,
+      22000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      50.2
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      14500.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      280.8
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      235.8
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      65000.0,
+      12700.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      119.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      27000.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      122.1
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      34000.0
+     ]
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      47.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      13725.0,
+      15000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      182.0
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      53000.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [
+      95.0
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      47.5
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      10500.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      66.1
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      18500.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      97.0
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      17500.0,
+      12500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      47.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      13500.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      45.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      13100.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      46.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      13400.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      48.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      21.0
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      9600.0,
+      2900.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      65.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      20000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      46.2
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      13500.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      28.4
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      25.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      12000.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      30000.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 250.0,
+     "weight": 3708.0
+    },
+    {
+     "supplier": "وحید بلوچ آڑتی  سے وزن لیا سپلائ کیلے",
+     "rate": 282.0,
+     "weight": 240.0
+    }
+   ],
+   "expenses": [
+    60930.0,
+    3000.0,
+    1150.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 250.0,
+    "manualShortValue": 19803.0
+   },
+   "excelTotals": {
+    "weight": 3869.1000000000004,
+    "amount": 1112511.8,
+    "prev": 37174000.69548001,
+    "total": 38286512.49548002,
+    "recovery": 1024400,
+    "closing": 37262112.49548002,
+    "avgRate": 287.53761856762554,
+    "purchaseAmount": 994680,
+    "gross": 117831.80000000005,
+    "expense": 65280,
+    "net": 52551.80000000005,
+    "excessShort": -78.89999999999964,
+    "costingPerKg": 21.99038536093665,
+    "costingRate": 271.99038536093667
+   }
+  },
+  {
+   "date": "2026-09-10",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1020.4,
+      406.2
+     ],
+     "rate": 287.0,
+     "recoveries": [
+      115000.0,
+      18600.0,
+      90000.0,
+      20000.0,
+      15000.0,
+      2000.0,
+      44000.0,
+      100000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      27.0
+     ],
+     "rate": 290.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      47.0
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      10000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      48.6
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      240.3
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      68000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      190.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      54000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      49.3
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      24.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      20000.0
+     ]
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      14800.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      23.5
+     ],
+     "rate": 287.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      26.2
+     ],
+     "rate": 290.0,
+     "recoveries": []
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [
+      170.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      27000.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      93.0
+     ],
+     "rate": 287.0,
+     "recoveries": []
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      46.0
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      302.3
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      200000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      276.8
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      68500.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      110.0
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      36000.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      151.0
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      19000.0
+     ]
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      53.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      177.1
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      51500.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      24000.0
+     ]
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      52.5
+     ],
+     "rate": 290.0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      74.2
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      21500.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      128.5
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      16000.0,
+      20000.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      54.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      15400.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      52.3
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      24.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      7050.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      59.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      16560.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      27.0
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      60.6
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      17500.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      50.2
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      14500.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      17.0
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      8500.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      132.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      3000.0,
+      35000.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      52.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      13000.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 250.0,
+     "weight": 3908.0
+    },
+    {
+     "supplier": "وحید بلوچ آڑتی  سے وزن لیا سپلائ کیلے",
+     "rate": 282.0,
+     "weight": 406.2
+    }
+   ],
+   "expenses": [
+    63150.0,
+    3000.0,
+    1150.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 250.0,
+    "manualShortValue": 11425.0
+   },
+   "excelTotals": {
+    "weight": 4268.5,
+    "amount": 1227023.7,
+    "prev": 37262112.49548002,
+    "total": 38489136.19548003,
+    "recovery": 1229410,
+    "closing": 37259726.19548003,
+    "avgRate": 287.4601616492913,
+    "purchaseAmount": 1091548.4,
+    "gross": 135475.30000000005,
+    "expense": 67500,
+    "net": 67975.30000000005,
+    "excessShort": -45.69999999999982,
+    "costingPerKg": 18.49010190933583,
+    "costingRate": 268.4901019093358
+   }
+  },
+  {
+   "date": "2026-09-11",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1255.7,
+      228.0
+     ],
+     "rate": 281.0,
+     "recoveries": [
+      190000.0,
+      10000.0,
+      15000.0,
+      2000.0,
+      21100.0,
+      20000.0,
+      34000.0,
+      90000.0,
+      100000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      54.2
+     ],
+     "rate": 284.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      33.0
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      10000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      55.9
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      279.6
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      72000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      210.4
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      55000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      46.6
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      15450.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      47.2
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      13500.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      35.8
+     ],
+     "rate": 281.0,
+     "recoveries": [
+      16800.0
+     ]
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      25.8
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      7600.0,
+      17000.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [
+      171.3
+     ],
+     "rate": 282.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      98.3
+     ],
+     "rate": 281.0,
+     "recoveries": []
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      54.3
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      28000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      521.0
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      200000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      430.4
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      110000.0,
+      5000.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      100.6
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      28300.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      113.8
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      37000.0,
+      21000.0
+     ]
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      72.7
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      21000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      181.3
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      51000.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [
+      177.6
+     ],
+     "rate": 282.0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      70.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      20000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      91.1
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      26000.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      49.7
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      13900.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      50.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      14140.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      32.0
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      9100.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      64.0
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      17921.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      33.3
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      71.6
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      20300.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      48.4
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      13800.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      25.2
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      7000.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      55.5
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      15300.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      82.0
+     ],
+     "rate": 282.0,
+     "recoveries": []
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 250.0,
+     "weight": 4692.5
+    },
+    {
+     "supplier": "وحید بلوچ آڑتی  سے وزن لیا سپلائ کیلے",
+     "rate": 276.0,
+     "weight": 228.0
+    }
+   ],
+   "expenses": [
+    92000.0,
+    3000.0,
+    1150.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 256.0,
+    "manualShortValue": 13619.0
+   },
+   "excelTotals": {
+    "weight": 4867.300000000001,
+    "amount": 1369718.9999999998,
+    "prev": 37259726.19548003,
+    "total": 38629445.19548003,
+    "recovery": 1394211,
+    "closing": 37235234.19548002,
+    "avgRate": 281.41248741602107,
+    "purchaseAmount": 1236053,
+    "gross": 133665.99999999977,
+    "expense": 96350,
+    "net": 37315.99999999977,
+    "excessShort": -53.19999999999891,
+    "costingPerKg": 22.59342962217245,
+    "costingRate": 278.59342962217244
+   }
+  },
+  {
+   "date": "2026-09-12",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1544.4,
+      76.0
+     ],
+     "rate": 281.0,
+     "recoveries": [
+      115000.0,
+      15000.0,
+      15000.0,
+      2000.0,
+      16200.0,
+      25300.0,
+      70000.0,
+      20000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      26.0
+     ],
+     "rate": 284.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      40.0
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      11000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      52.2
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      276.6
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      7000.0,
+      47000.0,
+      30000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      210.5
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      61500.0,
+      1600.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      45.8
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      25.5
+     ],
+     "rate": 282.0,
+     "recoveries": []
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      48.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      13800.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      31.6
+     ],
+     "rate": 281.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      30.0
+     ],
+     "rate": 284.0,
+     "recoveries": []
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      10000.0
+     ]
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      70000.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      100.5
+     ],
+     "rate": 281.0,
+     "recoveries": [
+      54000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      47.0
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      511.6
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      115965.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      367.2
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      80000.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      108.7
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      31000.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      159.0
+     ],
+     "rate": 282.0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      92.2
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      26000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      186.9
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      53000.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      30000.0,
+      15000.0
+     ]
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      32.5
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      10000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      141.6
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      29500.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      110.5
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      22500.0,
+      9500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      54.0
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      15120.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      45.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      12800.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      24.0
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      6800.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      32.3
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      18000.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      77.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      22000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      54.5
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      15400.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      27.7
+     ],
+     "rate": 282.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      31.3
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      8500.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      87.6
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      48000.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 250.0,
+     "weight": 4662.5
+    },
+    {
+     "supplier": "وحید بلوچ آڑتی  سے وزن لیا سپلائ کیلے",
+     "rate": 268.0,
+     "weight": 76.0
+    }
+   ],
+   "expenses": [
+    87200.0,
+    3000.0,
+    1150.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 256.0,
+    "manualShortValue": 10060.0
+   },
+   "excelTotals": {
+    "weight": 4699.200000000001,
+    "amount": 1322394.5,
+    "prev": 37235234.19548002,
+    "total": 38557628.695480034,
+    "recovery": 1198485,
+    "closing": 37359143.695480034,
+    "avgRate": 281.40843122233565,
+    "purchaseAmount": 1185993,
+    "gross": 136401.5,
+    "expense": 91550,
+    "net": 44851.5,
+    "excessShort": -39.29999999999927,
+    "costingPerKg": 21.622829417773236,
+    "costingRate": 277.62282941777323
+   }
+  },
+  {
+   "date": "2026-09-13",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1435.4,
+      302.5
+     ],
+     "rate": 285.0,
+     "recoveries": [
+      240000.0,
+      18000.0,
+      13200.0,
+      12800.0,
+      1200.0,
+      15000.0,
+      2500.0,
+      20000.0,
+      50000.0,
+      100000.0,
+      41000.0,
+      100000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      47.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      81000.0,
+      1000.0,
+      9000.0
+     ]
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      141.3
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      40000.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      500.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      90000.0,
+      38000.0,
+      2500.0,
+      10000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      398.0
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      113000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      96.4
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      27500.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      68.3
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      27000.0
+     ]
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      53.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      15500.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      72.2
+     ],
+     "rate": 285.0,
+     "recoveries": [
+      29460.0
+     ]
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      49.9
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      14500.0,
+      7000.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [
+      200.2
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      146.2
+     ],
+     "rate": 285.0,
+     "recoveries": [
+      51000.0,
+      19000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      48.6
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      293.2
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      150000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      277.3
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      110000.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      150.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      42000.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      155.6
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      54000.0,
+      20000.0
+     ]
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      71.8
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      20000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      199.7
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      57500.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [
+      142.0
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      46.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      8000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      140.7
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      42000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      175.2
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      8500.0,
+      40000.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      81.0
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      23010.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      70.6
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      20190.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      46.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      8500.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      68.3
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      12500.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      167.3
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      96.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      27500.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      20.7
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      118.8
+     ],
+     "rate": 284.0,
+     "recoveries": []
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      71.0
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 261.0,
+     "weight": 5730.0
+    },
+    {
+     "supplier": "وحید بلوچ آڑتی  سے وزن لیا سپلائ کیلے",
+     "rate": 280.0,
+     "weight": 302.5
+    }
+   ],
+   "expenses": [
+    57320.0,
+    3000.0,
+    1150.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 262.0,
+    "manualShortValue": 20514.0
+   },
+   "excelTotals": {
+    "weight": 5954.200000000001,
+    "amount": 1700367.7000000004,
+    "prev": 37359143.695480034,
+    "total": 39059511.395480014,
+    "recovery": 1846860,
+    "closing": 37212651.395480014,
+    "avgRate": 285.574502032179,
+    "purchaseAmount": 1580230,
+    "gross": 120137.70000000042,
+    "expense": 61670,
+    "net": 58467.70000000042,
+    "excessShort": -78.29999999999927,
+    "costingPerKg": 13.802693896745152,
+    "costingRate": 275.80269389674515
+   }
+  },
+  {
+   "date": "2026-09-14",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1183.9
+     ],
+     "rate": 287.0,
+     "recoveries": [
+      80000.0,
+      28000.0,
+      15000.0,
+      3000.0,
+      20000.0,
+      90000.0,
+      48700.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      22.0
+     ],
+     "rate": 290.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      44.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      10500.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      46.8
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      13500.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      274.8
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      75000.0,
+      5000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      224.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      43500.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      22.8
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      21.1
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      6100.0
+     ]
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      47.1
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      13700.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      30.0
+     ],
+     "rate": 287.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      27.0
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      7300.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      60000.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      91.1
+     ],
+     "rate": 287.0,
+     "recoveries": []
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      44.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      13000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      387.4
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      120000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      257.2
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      70000.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      105.9
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      30500.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      98.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      39000.0,
+      1000.0
+     ]
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      49.5
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      132.0
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      38500.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      35000.0
+     ]
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      22.5
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      11000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      67.7
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      20000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      74.0
+     ],
+     "rate": 290.0,
+     "recoveries": [
+      23500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      63.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      18260.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      4000.0,
+      500.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      30.8
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      12000.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      71.2
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      68000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      49.5
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      11000.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      51.5
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      49000.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      23350.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 264.0,
+     "weight": 3558.0
+    }
+   ],
+   "expenses": [
+    52070.0,
+    3000.0,
+    350.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 262.0,
+    "manualShortValue": 4585.0
+   },
+   "excelTotals": {
+    "weight": 3540.4999999999995,
+    "amount": 1017582.7999999999,
+    "prev": 37212651.395480014,
+    "total": 38230234.19548003,
+    "recovery": 1120910,
+    "closing": 37109324.19548003,
+    "avgRate": 287.4121734218331,
+    "purchaseAmount": 939312,
+    "gross": 78270.79999999993,
+    "expense": 55620,
+    "net": 22650.79999999993,
+    "excessShort": -17.500000000000455,
+    "costingPerKg": 17.0046603587064,
+    "costingRate": 279.0046603587064
+   }
+  },
+  {
+   "date": "2026-09-15",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1019.7
+     ],
+     "rate": 285.0,
+     "recoveries": [
+      90000.0,
+      10000.0,
+      7000.0,
+      15000.0,
+      35000.0,
+      85000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      51.0
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      52.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      78.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      22000.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      262.5
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      36000.0,
+      20000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      103.2
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      50000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      10000.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      34.2
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      47.9
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      13700.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      24.2
+     ],
+     "rate": 285.0,
+     "recoveries": [
+      14000.0
+     ]
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      31.4
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [
+      224.6
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      98.7
+     ],
+     "rate": 285.0,
+     "recoveries": []
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      51.4
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      405.3
+     ],
+     "rate": 284.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      270.8
+     ],
+     "rate": 286.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      75.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      21500.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      128.1
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      27.7
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      22000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      177.9
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      51500.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      51.7
+     ],
+     "rate": 288.0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      76.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      22000.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      118.4
+     ],
+     "rate": 288.0,
+     "recoveries": [
+      150000.0,
+      15000.0,
+      14500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      52.4
+     ],
+     "rate": 284.0,
+     "recoveries": [
+      14900.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      69.7
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      20000.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      25.1
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      7200.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      27.5
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      6900.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      76.8
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      22000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      60.7
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      17500.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      24.6
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      5000.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      77.9
+     ],
+     "rate": 284.0,
+     "recoveries": []
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      53.0
+     ],
+     "rate": 286.0,
+     "recoveries": [
+      8000.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 262.0,
+     "weight": 3853.0
+    }
+   ],
+   "expenses": [
+    52070.0,
+    3000.0,
+    350.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 262.0,
+    "manualShortValue": null
+   },
+   "excelTotals": {
+    "weight": 3879.0000000000005,
+    "amount": 1108035.4000000001,
+    "prev": 37109324.19548003,
+    "total": 38217359.595480025,
+    "recovery": 820700,
+    "closing": 37396659.595480025,
+    "avgRate": 285.64975509151844,
+    "purchaseAmount": 1009486,
+    "gross": 98549.40000000014,
+    "expense": 55620,
+    "net": 42929.40000000014,
+    "excessShort": 26.000000000000455,
+    "costingPerKg": 14.33874709976798,
+    "costingRate": 276.338747099768
+   }
+  },
+  {
+   "date": "2026-09-16",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1426.9
+     ],
+     "rate": 279.0,
+     "recoveries": [
+      3000.0,
+      260000.0,
+      18000.0,
+      15000.0,
+      80000.0,
+      28000.0,
+      9350.0,
+      7000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      54.8
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      15500.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      56.8
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      16000.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      272.9
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      76000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      186.7
+     ],
+     "rate": 278.0,
+     "recoveries": [
+      52000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      56.7
+     ],
+     "rate": 280.0,
+     "recoveries": []
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      29.4
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      18000.0
+     ]
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      52.9
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      28.0
+     ],
+     "rate": 279.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      27.3
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      16500.0
+     ]
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      64000.0
+     ]
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      100.8
+     ],
+     "rate": 279.0,
+     "recoveries": [
+      50000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      55.3
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      23000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      419.8
+     ],
+     "rate": 278.0,
+     "recoveries": [
+      200000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      253.3
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      120000.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      132.5
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      37500.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      113.8
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      35000.0,
+      8000.0
+     ]
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      174.6
+     ],
+     "rate": 282.0,
+     "recoveries": [
+      49000.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [
+      54.5
+     ],
+     "rate": 280.0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      80.9
+     ],
+     "rate": 280.0,
+     "recoveries": []
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      141.9
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      17000.0,
+      27500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      48.6
+     ],
+     "rate": 278.0,
+     "recoveries": [
+      13500.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      55.8
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      15620.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      28.2
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      8000.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      55.1
+     ],
+     "rate": 280.0,
+     "recoveries": []
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      83.1
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      23500.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      55.2
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      15500.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      28.5
+     ],
+     "rate": 280.0,
+     "recoveries": [
+      4000.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      53.9
+     ],
+     "rate": 278.0,
+     "recoveries": [
+      37000.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      26.6
+     ],
+     "rate": 278.0,
+     "recoveries": [
+      15000.0
+     ]
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 249.0,
+     "weight": 4253.0
+    }
+   ],
+   "expenses": [
+    63450.0,
+    3000.0,
+    850.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 249.0,
+    "manualShortValue": 24402.0
+   },
+   "excelTotals": {
+    "weight": 4154.800000000001,
+    "amount": 1160948.5,
+    "prev": 37396659.595480025,
+    "total": 38557608.095480025,
+    "recovery": 1407470,
+    "closing": 37150138.095480025,
+    "avgRate": 279.42343795128517,
+    "purchaseAmount": 1058997,
+    "gross": 101951.5,
+    "expense": 67500,
+    "net": 34451.5,
+    "excessShort": -98.19999999999891,
+    "costingPerKg": 22.119476268412434,
+    "costingRate": 271.1194762684124
+   }
+  },
+  {
+   "date": "2026-09-17",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1220.8
+     ],
+     "rate": 301.0,
+     "recoveries": [
+      70000.0,
+      30000.0,
+      15000.0,
+      25000.0,
+      29700.0,
+      14000.0,
+      80000.0,
+      100000.0
+     ]
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      43.5
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      66.4
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      19500.0,
+      550.0
+     ]
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      51.9
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      15600.0
+     ]
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      240.3
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      72000.0,
+      2000.0
+     ]
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      150.1
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      2000.0,
+      43000.0
+     ]
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      53.6
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      25000.0
+     ]
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [
+      27.3
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      55.8
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      17000.0
+     ]
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      34.2
+     ],
+     "rate": 301.0,
+     "recoveries": [
+      14500.0,
+      3200.0
+     ]
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      34.3
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      85.0
+     ],
+     "rate": 301.0,
+     "recoveries": [
+      59000.0
+     ]
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      50.4
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      24000.0
+     ]
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      293.2
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      120000.0
+     ]
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      171.9
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      53000.0,
+      5900.0
+     ]
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      134.7
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      28000.0
+     ]
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      145.5
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      44000.0
+     ]
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      104.4
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      31000.0
+     ]
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      198.2
+     ],
+     "rate": 304.0,
+     "recoveries": [
+      50000.0
+     ]
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      44.8
+     ],
+     "rate": 304.0,
+     "recoveries": [
+      7000.0
+     ]
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      49.7
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      34700.0
+     ]
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      124.1
+     ],
+     "rate": 304.0,
+     "recoveries": [
+      12500.0
+     ]
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      79.7
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      23900.0
+     ]
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      72.5
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      21900.0
+     ]
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      26.0
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      8000.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [
+      21.9
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      6610.0
+     ]
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [],
+     "rate": 0,
+     "recoveries": [
+      8000.0,
+      8000.0
+     ]
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      70.3
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      21000.0
+     ]
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      65.0
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      19600.0
+     ]
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      20.4
+     ],
+     "rate": 302.0,
+     "recoveries": [
+      6000.0
+     ]
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      113.0
+     ],
+     "rate": 300.0,
+     "recoveries": [
+      700.0,
+      5300.0
+     ]
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [
+      53.4
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 267.0,
+     "weight": 3915.0
+    }
+   ],
+   "expenses": [
+    95750.0,
+    3000.0,
+    350.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 272.0,
+    "manualShortValue": 3454.0
+   },
+   "excelTotals": {
+    "weight": 3902.2999999999997,
+    "amount": 1176563.6000000003,
+    "prev": 37150138.095480025,
+    "total": 38326701.695480034,
+    "recovery": 1176160,
+    "closing": 37150541.695480034,
+    "avgRate": 301.50516362145413,
+    "purchaseAmount": 1045305,
+    "gross": 131258.60000000033,
+    "expense": 99300,
+    "net": 31958.600000000326,
+    "excessShort": -12.700000000000273,
+    "costingPerKg": 26.331650565051383,
+    "costingRate": 298.3316505650514
+   }
+  },
+  {
+   "date": "2026-09-18",
+   "entries": [
+    {
+     "name": "انیس انصاری 3 نمبر",
+     "loads": [
+      1166.3
+     ],
+     "rate": 303.0,
+     "recoveries": []
+    },
+    {
+     "name": "حازق 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شعیب 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاکر 3 نمر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاھ زیب",
+     "loads": [
+      25.7
+     ],
+     "rate": 306.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ  5-ایل",
+     "loads": [
+      48.7
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "مظفر چشتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مزمل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کاشف کھتری",
+     "loads": [
+      54.5
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "ایاز کھتری",
+     "loads": [
+      297.0
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "دلاور کھتری",
+     "loads": [
+      158.5
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "ازلان جیند کتھری",
+     "loads": [
+      46.0
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "سلمان کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "رمضان کھتری",
+     "loads": [
+      51.2
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "طاہر کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جمیل وحید بلوچ",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "حسن 11-ایف",
+     "loads": [
+      24.5
+     ],
+     "rate": 303.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل 11-ایف",
+     "loads": [
+      28.0
+     ],
+     "rate": 306.0,
+     "recoveries": []
+    },
+    {
+     "name": "ذیشان نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "گلفام نمبر 5",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل نالہ",
+     "loads": [
+      218.2
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارشاد",
+     "loads": [
+      66.2
+     ],
+     "rate": 303.0,
+     "recoveries": []
+    },
+    {
+     "name": "حارث",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عادل صابر نالا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہراب کھتری گڈو 3 نمبر",
+     "loads": [
+      54.1
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "بابر بلا کتھری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "ظہر گلشن",
+     "loads": [
+      493.3
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان ناگن",
+     "loads": [
+      340.8
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "ارسالان ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "احمد بفرزون",
+     "loads": [
+      118.0
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "بلال k-2",
+     "loads": [
+      127.0
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "ندیم قریشی",
+     "loads": [
+      44.0
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "فرقان وارثی",
+     "loads": [
+      120.6
+     ],
+     "rate": 306.0,
+     "recoveries": []
+    },
+    {
+     "name": "ایا ز کھتری u p",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیصل وارثی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "نعمان فیضان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "طارق سندھ ہوٹل",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "جنید کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "علی کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "وحید لودھی 3 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "عظیم نا گن",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "راجہ ناگن 9946",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "دلدار بارادری 11-بی",
+     "loads": [
+      46.8
+     ],
+     "rate": 306.0,
+     "recoveries": []
+    },
+    {
+     "name": "دانیش ناگن ارسلان",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "تحسین آڑتی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "اظہر قریشی 8 نمبر",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "کامران گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "امان ایاز کھتری",
+     "loads": [
+      69.9
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "فہید 2-کے",
+     "loads": [
+      25.2
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "کامل کھتری",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "شاہد 11-ایف احمد",
+     "loads": [
+      25.5
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "ہارون 11- ایف",
+     "loads": [
+      25.3
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "بلال 3 نمبر",
+     "loads": [
+      23.5
+     ],
+     "rate": 304.0,
+     "recoveries": [
+      7200.0
+     ]
+    },
+    {
+     "name": "مدصر  کھتری نیوں",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فرید  E-5 دانش",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "فیضان 11-ایف",
+     "loads": [
+      24.5
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "جاوید کھتری",
+     "loads": [
+      82.4
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "عدنان 11-جے",
+     "loads": [
+      47.2
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "رضوان 403 سمامہ",
+     "loads": [
+      24.8
+     ],
+     "rate": 304.0,
+     "recoveries": []
+    },
+    {
+     "name": "اسامہ 11-ایف",
+     "loads": [
+      47.7
+     ],
+     "rate": 302.0,
+     "recoveries": []
+    },
+    {
+     "name": "حمزا یو پی",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    },
+    {
+     "name": "مہران شان گودرا",
+     "loads": [],
+     "rate": 0,
+     "recoveries": []
+    }
+   ],
+   "purchases": [
+    {
+     "supplier": "عمران ٹنڈو آدم سے وزن لیا 068",
+     "rate": 267.0,
+     "weight": 3980.0
+    }
+   ],
+   "expenses": [
+    95750.0,
+    3000.0,
+    350.0,
+    200.0
+   ],
+   "costing": {
+    "baseRate": 272.0,
+    "manualShortValue": 3454.0
+   },
+   "excelTotals": {
+    "weight": 3925.4,
+    "amount": 1190532.4000000001,
+    "prev": 37150541.695480034,
+    "total": 38341074.095480025,
+    "recovery": 7200,
+    "closing": 38333874.095480025,
+    "avgRate": 303.28944820909976,
+    "purchaseAmount": 1062660,
+    "gross": 127872.40000000014,
+    "expense": 99300,
+    "net": 28572.40000000014,
+    "excessShort": -54.59999999999991,
+    "costingPerKg": 26.176695368624852,
+    "costingRate": 298.17669536862485
+   }
+  }
+ ]
+}
