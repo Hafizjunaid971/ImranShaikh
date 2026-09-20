@@ -8,19 +8,50 @@
  * محلی (local) ڈیویلپمنٹ کے لیے یہ فائل استعمال نہیں ہوتی — وہاں src/server.js
  * چلتی ہے جو عام طریقے سے app.listen() کرتی ہے۔
  */
+// 'use strict';
+// require('dotenv').config();
+
+// const app = require('../src/app');
+// const { connectDB } = require('../src/config/db');
+
+// module.exports = async (req, res) => {
+//   try {
+//     await connectDB(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/murgi_ledger');
+//   } catch (err) {
+//     console.error('❌ DB کنکشن ناکام:', err.message);
+//     res.status(503).json({ ok: false, message: 'ڈیٹابیس سے رابطہ نہیں ہو سکا' });
+//     return;
+//   }
+//   return app(req, res);
+// };
+
 'use strict';
-require('dotenv').config();
 
 const app = require('../src/app');
 const { connectDB } = require('../src/config/db');
 
 module.exports = async (req, res) => {
   try {
-    await connectDB(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/murgi_ledger');
+    // 1. Verify MONGO_URI is present in production/serverless environment
+    if (!process.env.MONGO_URI) {
+      console.error('❌ MONGO_URI environment variable is missing on Vercel!');
+      return res.status(500).json({
+        ok: false,
+        message: 'سرور کنفیگریشن کی خرابی: MONGO_URI موجود نہیں ہے',
+      });
+    }
+
+    // 2. Await DB connection without falling back to localhost on Vercel
+    await connectDB(process.env.MONGO_URI);
+    
+    // 3. Delegate request to Express app
+    return app(req, res);
   } catch (err) {
     console.error('❌ DB کنکشن ناکام:', err.message);
-    res.status(503).json({ ok: false, message: 'ڈیٹابیس سے رابطہ نہیں ہو سکا' });
-    return;
+    return res.status(503).json({ 
+      ok: false, 
+      message: 'ڈیٹابیس سے رابطہ نہیں ہو سکا',
+      error: process.env.NODE_ENV !== 'production' ? err.message : undefined
+    });
   }
-  return app(req, res);
 };

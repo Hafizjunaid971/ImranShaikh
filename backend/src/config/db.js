@@ -13,23 +13,24 @@ const mongoose = require('mongoose');
 let cachedPromise = null;
 
 async function connectDB(uri) {
-  // پہلے سے جڑا ہو تو دوبارہ کوشش نہ کریں
   if (mongoose.connection.readyState === 1) return mongoose.connection;
 
   if (!cachedPromise) {
     mongoose.set('strictQuery', true);
+    
     cachedPromise = mongoose
       .connect(uri, {
+        bufferCommands: false, // <-- YAHAN ADD KAREIN (Queries queue hone ke bajaye instantly error throw karegi)
         autoIndex: true,
-        serverSelectionTimeoutMS: 15000,
-        maxPoolSize: 10, // سرور لیس میں کم رکھیں — ہر instance کی اپنی pool ہوتی ہے
+        serverSelectionTimeoutMS: 5000, // Timeout ko 15s se kam karke 5s kar dein
+        maxPoolSize: 10,
       })
       .then((conn) => {
-        console.log(`✅ MongoDB جُڑ گیا: ${conn.connection.host}/${conn.connection.name}`);
+        console.log(`✅ MongoDB Connected: ${conn.connection.host}/${conn.connection.name}`);
         return conn;
       })
       .catch((err) => {
-        cachedPromise = null; // ناکامی پر کیش صاف کریں تاکہ اگلی درخواست دوبارہ کوشش کرے
+        cachedPromise = null;
         throw err;
       });
   }
