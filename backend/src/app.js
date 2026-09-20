@@ -75,29 +75,21 @@ const app = express();
 app.use(helmet());
 app.use(compression());
 
-// Allowed origins setup
+// Clean origins without trailing slashes or paths
 const defaultOrigins = [
-  'https://karachi-poultry-supply21.vercel.app/api/',
+  'https://karachi-poultry-supply21.vercel.app',
   'http://localhost:5173',
   'http://localhost:3000'
 ];
 
-const envOrigins = process.env.CLIENT_URL 
-  ? process.env.CLIENT_URL.split(',').map(url => url.trim())
-  : [];
-
-const allowedOrigins = Array.from(new Set([...defaultOrigins, ...envOrigins]));
-
 app.use(
   cors({
     origin: function (origin, callback) {
-      // Allow requests with no origin (like mobile apps, curl, server-to-server)
       if (!origin) return callback(null, true);
-      
-      if (allowedOrigins.includes(origin)) {
+      if (defaultOrigins.includes(origin)) {
         callback(null, true);
       } else {
-        callback(new Error(`CORS Blocked: ${origin} is not allowed`));
+        callback(new Error(`CORS Blocked for origin: ${origin}`));
       }
     },
     credentials: true,
@@ -110,8 +102,8 @@ app.use(express.json({ limit: '2mb' }));
 app.use(express.urlencoded({ extended: true }));
 if (process.env.NODE_ENV !== 'test') app.use(morgan('dev'));
 
+// Rate Limiter
 app.use(
-  '/api',
   rateLimit({
     windowMs: 60 * 1000,
     max: Number(process.env.RATE_LIMIT || 300),
@@ -121,7 +113,10 @@ app.use(
   })
 );
 
-app.use('/api', routes);
+// IMPORTANT: Direct routes mapped to '/' so /auth/login works without /api
+app.use('/', routes);
+app.use('/api', routes); // Safety fallback if frontend calls /api/auth/login
+
 app.get('/', (req, res) => res.json({ ok: true, message: 'مرغی لیجر API چل رہا ہے' }));
 
 app.use(notFound);
