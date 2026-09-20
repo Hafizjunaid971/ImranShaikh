@@ -62,6 +62,7 @@ export default {
     onlyToday: 'Today\u2019s only',
     applyRateAll: 'Apply rate to all',
     applyRatePrompt: 'Which rate should be applied to every line that has weight?',
+    dailyCosting: 'Daily costing',
     col: {
       name: 'Name',
       weight: 'Weight',

@@ -127,7 +127,55 @@ frontend/
 
 ---
 
+## Excel ایکسپورٹ — منتخب تاریخوں کی فائل
+
+**Reports** صفحے پر تاریخ کی رینج منتخب کر کے **"ایکسل فائل ڈاؤن لوڈ کریں"** دبائیں۔
+بنتی ہوئی `.xlsx` فائل میں شامل ہوتا ہے:
+
+- اُس دورانیے کے تمام دن — ہر دن ایک الگ ٹیب (`DD-MM-YYYY`)، بالکل اصل فائل جیسا
+- پارٹی لیجر (جتنی پارٹیاں اُس دورانیے میں ملیں)
+- بینک کھاتے کی اسٹیٹمنٹ
+- دونوں سپلائر (آڑتی) کے کھاتے
+
+**سب سے اہم بات:** ہر خانہ **زندہ فارمولا** ہے (`=B4*C4` وغیرہ)، عدد نہیں۔ فائل کھول کر
+اگر کوئی نمبر بدلیں تو باقی سب خود دوبارہ حساب ہو جائے گا۔
+
+> اس فیچر کے لیے `exceljs` پیکج درکار ہے — پہلے سے `package.json` میں شامل ہے،
+> `npm install` کرتے وقت خود آ جائے گا۔
+
+## Vercel پر Deploy کرنا (Backend + Frontend دونوں)
+
+**دو الگ Vercel پروجیکٹ بنائیں** — ایک backend کے لیے، ایک frontend کے لیے (ایک ہی repo میں دو فولڈر ہیں، دونوں کو الگ الگ root رکھ کر امپورٹ کریں)۔
+
+### Backend
+
+1. Vercel پر «New Project» → یہی repo منتخب کریں → **Root Directory: `backend`**
+2. Vercel کی Environment Variables میں یہ سب شامل کریں (یہ `.env` فائل کی جگہ لیتی ہیں — `.env` خود Vercel پر نہیں جاتی):
+   - `MONGO_URI` — مکمل Atlas connection string (`mongodb+srv://user:pass@cluster.../murgi_ledger?...`)
+   - `JWT_SECRET` — کوئی لمبی random سٹرنگ
+   - `JWT_EXPIRES` = `30d`
+   - `CLIENT_URL` — frontend کا Vercel URL (نیچے frontend deploy کرنے کے بعد ملے گا)
+   - `RATE_LIMIT` = `300`
+   - `NODE_ENV` = `production`
+3. Deploy کریں۔ `backend/vercel.json` پہلے سے موجود ہے — یہ ہر درخواست کو `api/index.js` کی طرف بھیجتا ہے (سرور لیس فنکشن)۔
+4. Deploy مکمل ہونے پر ایک URL ملے گا، جیسے `https://murgi-backend.vercel.app` — یہی frontend کے `VITE_API_URL` میں جائے گا۔
+
+### Frontend
+
+1. «New Project» → **Root Directory: `frontend`**
+2. Environment Variables میں: `VITE_API_URL` = `https://murgi-backend.vercel.app/api` (اوپر والا backend URL + `/api`)
+3. Deploy کریں — Vercel خود `npm run build` چلا کر `dist/` سرو کر دے گا۔
+4. اب backend کے پروجیکٹ میں واپس جا کر `CLIENT_URL` کو اسی frontend URL پر اپڈیٹ کریں (ورنہ CORS بلاک کرے گا)۔
+
+<div class="box warn">
+<b>دو باتیں جو سرور لیس ماحول میں مختلف ہیں:</b>
+
+- **Rate limiting** میموری میں رہتی ہے — سرور لیس میں ہر «کولڈ اسٹارٹ» پر ریسیٹ ہو سکتی ہے، یعنی حد بندی مقامی سرور جتنی دقیق نہیں ہوگی (کام بہرحال کرتی ہے)۔
+- **Excel ایکسپورٹ** (بڑی تاریخ کی حد) میں وقت لگ سکتا ہے — Vercel کے مفت پلان میں فنکشن کی حد 10 سیکنڈ ہے۔ اگر بڑی رینج ایکسپورٹ کرتے ہوئے ٹائم آؤٹ آئے، تو مختصر رینج آزمائیں یا Vercel کے فنکشن ٹائم آؤٹ کی سیٹنگ بڑھائیں (Pro پلان)۔
+</div>
+
 ## API (خلاصہ)
+
 
 | طریقہ | راستہ | کام |
 |---|---|---|

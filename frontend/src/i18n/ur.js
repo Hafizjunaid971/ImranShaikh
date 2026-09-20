@@ -66,6 +66,8 @@ export default {
     onlyToday: 'صرف آج کے',
     applyRateAll: 'سب پر ریٹ لگائیں',
     applyRatePrompt: 'جن لائنوں میں وزن ہے اُن سب پر کون سی ریٹ لگائیں؟',
+    dailyCosting: 'روزانہ کوسٹنگ',
+
     col: {
       name: 'نام',
       weight: 'وزن',

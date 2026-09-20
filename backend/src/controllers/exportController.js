@@ -193,15 +193,15 @@ function buildPartyWorksheet(wb, partyName, rows) {
     const rr = i + 2;
     const row = ws.getRow(rr);
     row.getCell(1).value = new Date(r.date).toISOString().slice(0, 10);
-    row.getCell(2).value = F.num(r.saleAmount) || 0;
-    row.getCell(3).value = F.num(r.recoveryAmount) || 0;
-    row.getCell(4).value = F.num(r.debit) || 0;
-    row.getCell(5).value = F.num(r.credit) || 0;
+    row.getCell(2).value = F.num(r.saleAmount) || '';
+    row.getCell(3).value = F.num(r.recoveryAmount) || '';
+    row.getCell(4).value = F.num(r.debit) || '';
+    row.getCell(5).value = F.num(r.credit) || '';
     row.getCell(6).value = r.reference || '';
     row.getCell(7).value =
       rr === 2
         ? fx(`D${rr}-E${rr}`, r.balance)
-        : fx(`IF(AND(D${rr}="",E${rr}=""),"",G${rr - 1}+D${rr}-E${rr})`, r.balance);
+        : fx(`IF(AND(D${rr}="",E${rr}=""),G${rr - 1},G${rr - 1}+D${rr}-E${rr})`, r.balance);
   });
   ws.eachRow((row) => row.eachCell((c) => (c.font = { ...(c.font || {}), name: 'Arial' })));
 }
@@ -234,9 +234,9 @@ function buildBankWorksheet(wb, account, rows) {
     row.getCell(1).value = i + 1;
     row.getCell(2).value = new Date(r.date).toISOString().slice(0, 10);
     row.getCell(3).value = r.reference || '';
-    row.getCell(4).value = F.num(r.deposit) || 0;
-    row.getCell(5).value = F.num(r.withdraw) || 0;
-    row.getCell(6).value = fx(`IF(AND(D${rr}="",E${rr}=""),"",F${rr - 1}+D${rr}-E${rr})`, r.balance);
+    row.getCell(4).value = F.num(r.deposit) || '';
+    row.getCell(5).value = F.num(r.withdraw) || '';
+    row.getCell(6).value = fx(`IF(AND(D${rr}="",E${rr}=""),F${rr - 1},F${rr - 1}+D${rr}-E${rr})`, r.balance);
   });
   ws.eachRow((row) => row.eachCell((c) => (c.font = { ...(c.font || {}), name: 'Arial' })));
 }
@@ -267,12 +267,12 @@ function buildSupplierWorksheet(wb, supplier, rows) {
     const row = ws.getRow(rr);
     row.getCell(1).value = new Date(r.date).toISOString().slice(0, 10);
     row.getCell(2).value = r.vehicleNo || '';
-    row.getCell(3).value = F.num(r.weight) || 0;
-    row.getCell(4).value = F.num(r.rate) || 0;
+    row.getCell(3).value = F.num(r.weight) || '';
+    row.getCell(4).value = F.num(r.rate) || '';
     row.getCell(5).value = fx(`C${rr}*D${rr}`, r.amount);
     row.getCell(6).value = fx(`I${rr - 1}`, r.previousBalance);
     row.getCell(7).value = fx(`E${rr}+F${rr}`, r.total);
-    row.getCell(8).value = F.num(r.paid) || 0;
+    row.getCell(8).value = F.num(r.paid) || '';
     row.getCell(9).value = fx(`G${rr}-H${rr}`, r.balance);
     row.getCell(10).value = r.description || '';
   });

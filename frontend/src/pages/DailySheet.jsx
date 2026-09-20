@@ -584,7 +584,32 @@ export default function DailySheet() {
                 </div>
                 <div className="field" style={{ maxWidth: 150 }}>
                   <label>{t('daily.shortValue')}</label>
-                  <input className="num" readOnly value={fmtMoney(costing.shortValue)} />
+                  <input
+                    className="num"
+                    type="number"
+                    title={t('daily.shortValueHint')}
+                    placeholder={fmtMoney(costing.shortValue)}
+                    disabled={!editable}
+                    value={sheet.costing?.manualShortValue ?? ''}
+                    onChange={(e) =>
+                      setSheet((s) => ({
+                        ...s,
+                        costing: {
+                          ...s.costing,
+                          manualShortValue: e.target.value === '' ? null : Number(e.target.value),
+                        },
+                      }))
+                    }
+                  />
+                </div>
+                <div className="field" style={{ maxWidth: 150 }}>
+                  <label>{t('daily.totalCosting')}</label>
+                  <input
+                    className="num"
+                    readOnly
+                    title={t('daily.totalCostingHint')}
+                    value={fmtMoney(costing.totalCosting)}
+                  />
                 </div>
                 <div className="field" style={{ maxWidth: 130 }}>
                   <label>{t('daily.perKg')}</label>
