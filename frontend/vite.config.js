@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       // ڈیویلپمنٹ میں API کالز سیدھی backend پر
-      '/api': { target: 'http://localhost:5000', changeOrigin: true },
+      '/api': { target: 'https://imran-shaikh-pi.vercel.app/api', changeOrigin: true },
     },
   },
   build: { outDir: 'dist', sourcemap: false },
