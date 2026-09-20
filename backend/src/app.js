@@ -77,7 +77,7 @@ app.use(compression());
 
 // Allowed origins setup
 const defaultOrigins = [
-  'https://karachi-poultry-supply21.vercel.app',
+  'https://karachi-poultry-supply21.vercel.app/api/',
   'http://localhost:5173',
   'http://localhost:3000'
 ];
