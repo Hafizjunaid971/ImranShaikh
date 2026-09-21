@@ -25,33 +25,60 @@
 //   return app(req, res);
 // };
 
-'use strict';
+// 'use strict';
 
-const app = require('../src/app');
+// const app = require('../src/app');
+// const { connectDB } = require('../src/config/db');
+
+// module.exports = async (req, res) => {
+//   try {
+//     // 1. Verify MONGO_URI is present in production/serverless environment
+//     if (!process.env.MONGO_URI) {
+//       console.error('❌ MONGO_URI environment variable is missing on Vercel!');
+//       return res.status(500).json({
+//         ok: false,
+//         message: 'سرور کنفیگریشن کی خرابی: MONGO_URI موجود نہیں ہے',
+//       });
+//     }
+
+//     // 2. Await DB connection without falling back to localhost on Vercel
+//     await connectDB(process.env.MONGO_URI);
+    
+//     // 3. Delegate request to Express app
+//     return app(req, res);
+//   } catch (err) {
+//     console.error('❌ DB کنکشن ناکام:', err.message);
+//     return res.status(503).json({ 
+//       ok: false, 
+//       message: 'ڈیٹابیس سے رابطہ نہیں ہو سکا',
+//       error: process.env.NODE_ENV !== 'production' ? err.message : undefined
+//     });
+//   }
+// };
+
+'use strict';
+require('dotenv').config();
+
 const { connectDB } = require('../src/config/db');
 
 module.exports = async (req, res) => {
   try {
-    // 1. Verify MONGO_URI is present in production/serverless environment
-    if (!process.env.MONGO_URI) {
-      console.error('❌ MONGO_URI environment variable is missing on Vercel!');
-      return res.status(500).json({
-        ok: false,
-        message: 'سرور کنفیگریشن کی خرابی: MONGO_URI موجود نہیں ہے',
-      });
+    // 1. Pehle MongoDB connection establish hone ka AWAIT karein
+    if (process.env.MONGO_URI) {
+      await connectDB(process.env.MONGO_URI);
+    } else {
+      console.error('❌ MONGO_URI missing on Vercel Environment Variables');
     }
 
-    // 2. Await DB connection without falling back to localhost on Vercel
-    await connectDB(process.env.MONGO_URI);
-    
-    // 3. Delegate request to Express app
+    // 2. Connection success hone ke baad App require/call karein
+    const app = require('../src/app');
     return app(req, res);
   } catch (err) {
-    console.error('❌ DB کنکشن ناکام:', err.message);
-    return res.status(503).json({ 
+    console.error('❌ Vercel DB Connection Error:', err.message);
+    return res.status(500).json({ 
       ok: false, 
-      message: 'ڈیٹابیس سے رابطہ نہیں ہو سکا',
-      error: process.env.NODE_ENV !== 'production' ? err.message : undefined
+      message: 'ڈیٹا بیس کنکشن قائم نہیں ہو سکا',
+      error: err.message 
     });
   }
 };
