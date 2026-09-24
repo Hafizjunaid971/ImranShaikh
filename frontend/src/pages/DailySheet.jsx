@@ -33,6 +33,18 @@ const joinPlus = (arr = []) => arr.map((x) => x.weight ?? x.amount ?? x).filter(
 const SHOP_NAME = 'Shoaib Enter Price';
 const SHOP_PHONE = '+92 315 8957767';
 
+/** from..to ke darmiyan har din ki date string (yyyy-mm-dd) ki list */
+const dateRangeList = (from, to) => {
+  const list = [];
+  const d = new Date(from);
+  const end = new Date(to);
+  while (d <= end) {
+    list.push(d.toISOString().slice(0, 10));
+    d.setDate(d.getDate() + 1);
+  }
+  return list;
+};
+
 export default function DailySheet() {
   const { t } = useLang();
   const { date: routeDate } = useParams();
@@ -51,6 +63,17 @@ export default function DailySheet() {
   const [isNew, setIsNew] = useState(true);
   const [filter, setFilter] = useState('');
   const [onlyActive, setOnlyActive] = useState(false);
+
+  // --- Range report / print ---
+  const [rangeFrom, setRangeFrom] = useState(routeDate || today());
+  const [rangeTo, setRangeTo] = useState(routeDate || today());
+  const [rangeCustomer, setRangeCustomer] = useState('');
+  const [rangeLoading, setRangeLoading] = useState(false);
+
+  // aaj ke loaded sheet se customer names ki list (name select/search ke liye)
+  const customerOptions = sheet
+    ? [...new Set(sheet.entries.map((e) => e.customerName).filter(Boolean))].sort()
+    : [];
 
   const editable = can('admin', 'manager', 'operator') && !sheet?.isLocked;
 
@@ -304,6 +327,273 @@ export default function DailySheet() {
     printWindow.document.close();
   };
 
+  /** Range Report: from..to ke har din ka /daily/:date data lekar ek combined print nikalta hai.
+   *  Koi naya backend route nahi chahiye — maujooda per-day endpoint hi dohraya jata hai. */
+  const printRangeReport = async () => {
+    if (!rangeFrom || !rangeTo) {
+      show('From aur To date select karein', 'error');
+      return;
+    }
+    if (rangeFrom > rangeTo) {
+      show('From date, To date se pehle honi chahiye', 'error');
+      return;
+    }
+
+    setRangeLoading(true);
+    try {
+      const dates = dateRangeList(rangeFrom, rangeTo);
+      const results = await Promise.all(
+        dates.map((d) => api.get(`/daily/${d}`).catch(() => null))
+      );
+
+      const esc = (v) =>
+        String(v ?? '')
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;');
+
+      const wantName = rangeCustomer.trim().toLowerCase();
+
+      const printWindow = window.open('', '_blank', 'width=900,height=700');
+      if (!printWindow) {
+        show('Please allow pop-ups to print the report.', 'error');
+        return;
+      }
+
+      // ---- Ek customer ka naam diya gaya ho to sirf usi ka statement ----
+      if (wantName) {
+        const custRows = dates
+          .map((d, i) => {
+            const res = results[i];
+            if (!res || res.data.isNew) return null;
+            const entries = res.data.data?.entries || [];
+            const match = entries.find(
+              (e) => (e.customerName || e.customer?.name || '').toLowerCase() === wantName
+            );
+            if (!match) return null;
+            return { date: d, e: match };
+          })
+          .filter(Boolean);
+
+        if (!custRows.length) {
+          show('Is naam ka record is range mein nahi mila', 'error');
+          printWindow.close();
+          return;
+        }
+
+        const first = custRows[0].e;
+        const custDisplayName = first.customerName || first.customer?.name || rangeCustomer;
+        const area = first.customer?.area || first.area;
+        const phone = first.phone || first.customer?.phone;
+
+        const grand = custRows.reduce(
+          (acc, r) => {
+            acc.weight += Number(r.e.weight || 0);
+            acc.amount += Number(r.e.amount || 0);
+            acc.recovery += Number(r.e.recovery || 0);
+            return acc;
+          },
+          { weight: 0, amount: 0, recovery: 0 }
+        );
+        const finalClosing = custRows[custRows.length - 1].e.closingBalance;
+
+        const rowsHtml = custRows
+          .map(
+            (r) => `
+          <tr>
+            <td>${esc(r.date)}</td>
+            <td class="num">${esc(fmtNum(r.e.weight))}</td>
+            <td class="num">${esc(fmtNum(r.e.rate))}</td>
+            <td class="num">${esc(fmtMoney(r.e.amount))}</td>
+            <td class="num">${esc(fmtMoney(r.e.previousBalance))}</td>
+            <td class="num">${esc(fmtMoney(r.e.totalAmount))}</td>
+            <td class="num">${esc(fmtMoney(r.e.recovery))}</td>
+            <td class="num">${esc(fmtMoney(r.e.closingBalance))}</td>
+          </tr>`
+          )
+          .join('');
+
+        printWindow.document.write(`
+          <!doctype html>
+          <html lang="en">
+            <head>
+              <meta charset="utf-8" />
+              <title>${esc(custDisplayName)} — Statement</title>
+              <style>
+                @page { size: A4; margin: 12mm; }
+                * { box-sizing: border-box; }
+                body { font: 12px Arial, sans-serif; color: #111; }
+                h1 { text-align: center; margin: 0 0 2px; font-size: 20px; }
+                h2 { text-align: center; margin: 0 0 4px; font-size: 15px; }
+                .meta { text-align: center; color: #555; margin-bottom: 14px; }
+                table { width: 100%; border-collapse: collapse; }
+                th, td { border: 1px solid #999; padding: 5px 7px; }
+                th { background: #f0f0f0; }
+                .num { text-align: right; }
+                tfoot td { font-weight: 700; background: #f7f7f7; }
+                .closing { margin-top: 10px; text-align: right; font-size: 14px; font-weight: 700; }
+                .print-bar { text-align: center; margin-top: 18px; }
+                .print-bar button {
+                  font: 14px Arial, sans-serif; padding: 8px 22px; border-radius: 6px;
+                  border: 1px solid #333; background: #222; color: #fff; cursor: pointer;
+                }
+                @media print { .print-bar { display: none; } }
+              </style>
+            </head>
+            <body>
+              <h1>${esc(SHOP_NAME)}</h1>
+              <div class="meta">${esc(SHOP_PHONE)}</div>
+              <h2>${esc(custDisplayName)}${area ? ' — ' + esc(area) : ''}${phone ? ' — ' + esc(phone) : ''}</h2>
+              <div class="meta">${esc(rangeFrom)} to ${esc(rangeTo)}</div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th class="num">Weight</th>
+                    <th class="num">Rate</th>
+                    <th class="num">Amount</th>
+                    <th class="num">Prev Balance</th>
+                    <th class="num">Total Amount</th>
+                    <th class="num">Recovery</th>
+                    <th class="num">Closing Balance</th>
+                  </tr>
+                </thead>
+                <tbody>${rowsHtml}</tbody>
+                <tfoot>
+                  <tr>
+                    <td>Total</td>
+                    <td class="num">${esc(fmtNum(grand.weight))}</td>
+                    <td class="num"></td>
+                    <td class="num">${esc(fmtMoney(grand.amount))}</td>
+                    <td class="num"></td>
+                    <td class="num"></td>
+                    <td class="num">${esc(fmtMoney(grand.recovery))}</td>
+                    <td class="num"></td>
+                  </tr>
+                </tfoot>
+              </table>
+              <div class="closing">Final Closing Balance: ${esc(fmtMoney(finalClosing))}</div>
+              <div class="print-bar">
+                <button onclick="window.print()">🖨 Print</button>
+              </div>
+            </body>
+          </html>
+        `);
+        printWindow.document.close();
+        setRangeLoading(false);
+        return;
+      }
+
+      // ---- Naam nahi diya gaya — poori range ka overall summary ----
+      const rows = dates
+        .map((d, i) => ({ date: d, res: results[i] }))
+        .filter((r) => r.res && !r.res.data.isNew && r.res.data.data?.totals)
+        .map((r) => ({ date: r.date, totals: r.res.data.data.totals }));
+
+      if (!rows.length) {
+        show('Is range mein koi saved data nahi mila', 'error');
+        printWindow.close();
+        return;
+      }
+
+      const grand = rows.reduce(
+        (acc, r) => {
+          const tt = r.totals;
+          acc.weight += Number(tt.weight || 0);
+          acc.amount += Number(tt.amount || 0);
+          acc.recovery += Number(tt.recovery || 0);
+          acc.purchaseAmount += Number(tt.purchaseAmount || 0);
+          acc.expenseTotal += Number(tt.expenseTotal || 0);
+          acc.grossProfit += Number(tt.grossProfit || 0);
+          acc.netProfit += Number(tt.netProfit || 0);
+          return acc;
+        },
+        { weight: 0, amount: 0, recovery: 0, purchaseAmount: 0, expenseTotal: 0, grossProfit: 0, netProfit: 0 }
+      );
+
+      const rowsHtml = rows
+        .map(
+          (r) => `
+        <tr>
+          <td>${esc(r.date)}</td>
+          <td class="num">${esc(fmtNum(r.totals.weight))}</td>
+          <td class="num">${esc(fmtMoney(r.totals.amount))}</td>
+          <td class="num">${esc(fmtMoney(r.totals.recovery))}</td>
+          <td class="num">${esc(fmtMoney(r.totals.purchaseAmount))}</td>
+          <td class="num">${esc(fmtMoney(r.totals.expenseTotal))}</td>
+          <td class="num">${esc(fmtMoney(r.totals.grossProfit))}</td>
+          <td class="num">${esc(fmtMoney(r.totals.netProfit))}</td>
+        </tr>`
+        )
+        .join('');
+
+      printWindow.document.write(`
+        <!doctype html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <title>${esc(SHOP_NAME)} — Range Report</title>
+            <style>
+              @page { size: A4; margin: 12mm; }
+              * { box-sizing: border-box; }
+              body { font: 12px Arial, sans-serif; color: #111; }
+              h1 { text-align: center; margin: 0 0 2px; font-size: 20px; }
+              .meta { text-align: center; color: #555; margin-bottom: 14px; }
+              table { width: 100%; border-collapse: collapse; }
+              th, td { border: 1px solid #999; padding: 5px 7px; }
+              th { background: #f0f0f0; }
+              .num { text-align: right; }
+              tfoot td { font-weight: 700; background: #f7f7f7; }
+              .print-bar { text-align: center; margin-top: 18px; }
+              .print-bar button {
+                font: 14px Arial, sans-serif; padding: 8px 22px; border-radius: 6px;
+                border: 1px solid #333; background: #222; color: #fff; cursor: pointer;
+              }
+              @media print { .print-bar { display: none; } }
+            </style>
+          </head>
+          <body>
+            <h1>${esc(SHOP_NAME)}</h1>
+            <div class="meta">${esc(SHOP_PHONE)} — ${esc(rangeFrom)} to ${esc(rangeTo)}</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th class="num">Weight</th>
+                  <th class="num">Sale</th>
+                  <th class="num">Recovery</th>
+                  <th class="num">Purchase</th>
+                  <th class="num">Expense</th>
+                  <th class="num">Gross Profit</th>
+                  <th class="num">Net Profit</th>
+                </tr>
+              </thead>
+              <tbody>${rowsHtml}</tbody>
+              <tfoot>
+                <tr>
+                  <td>Total</td>
+                  <td class="num">${esc(fmtNum(grand.weight))}</td>
+                  <td class="num">${esc(fmtMoney(grand.amount))}</td>
+                  <td class="num">${esc(fmtMoney(grand.recovery))}</td>
+                  <td class="num">${esc(fmtMoney(grand.purchaseAmount))}</td>
+                  <td class="num">${esc(fmtMoney(grand.expenseTotal))}</td>
+                  <td class="num">${esc(fmtMoney(grand.grossProfit))}</td>
+                  <td class="num">${esc(fmtMoney(grand.netProfit))}</td>
+                </tr>
+              </tfoot>
+            </table>
+            <div class="print-bar">
+              <button onclick="window.print()">🖨 Print</button>
+            </div>
+          </body>
+        </html>
+      `);
+      printWindow.document.close();
+    } finally {
+      setRangeLoading(false);
+    }
+  };
+
   const shiftDay = (n) => {
     const d = new Date(date);
     d.setDate(d.getDate() + n);
@@ -350,7 +640,41 @@ export default function DailySheet() {
         </div>
       </div>
 
-      <div className="card">
+      <div className="card" style={{ marginTop: '.75rem' }}>
+        <div className="card-title">
+          <span>Range Report (Print)</span>
+        </div>
+        <div className="split" style={{ gap: '.6rem', alignItems: 'flex-end', flexWrap: 'wrap' }}>
+          <div className="field" style={{ maxWidth: 170, marginBottom: 0 }}>
+            <label>From</label>
+            <input type="date" value={rangeFrom} onChange={(e) => setRangeFrom(e.target.value)} />
+          </div>
+          <div className="field" style={{ maxWidth: 170, marginBottom: 0 }}>
+            <label>To</label>
+            <input type="date" value={rangeTo} onChange={(e) => setRangeTo(e.target.value)} />
+          </div>
+          <div className="field" style={{ maxWidth: 220, marginBottom: 0 }}>
+            <label>Customer Name (optional)</label>
+            <input
+              type="text"
+              list="range-customer-names"
+              placeholder="Sab customers (khali chhoro)"
+              value={rangeCustomer}
+              onChange={(e) => setRangeCustomer(e.target.value)}
+            />
+            <datalist id="range-customer-names">
+              {customerOptions.map((n) => (
+                <option key={n} value={n} />
+              ))}
+            </datalist>
+          </div>
+          <button className="btn gold sm" onClick={printRangeReport} disabled={rangeLoading}>
+            {rangeLoading ? t('common.loading') : rangeCustomer.trim() ? 'Print Customer Statement' : 'Print Range'}
+          </button>
+        </div>
+      </div>
+
+      <div className="card" style={{ marginTop: '1rem' }}>
         <div className="card-title">
           <span>{t('daily.customersHeading')} ({rows.length})</span>
           <div className="split">
