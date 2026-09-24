@@ -59,6 +59,7 @@ export default {
     nextDay: 'Next day →',
     customersHeading: 'Customers',
     searchName: 'Search name',
+    printBill: 'Print bill',
     onlyToday: 'Today\u2019s only',
     applyRateAll: 'Apply rate to all',
     applyRatePrompt: 'Which rate should be applied to every line that has weight?',

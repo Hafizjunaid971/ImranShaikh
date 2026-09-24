@@ -43,7 +43,7 @@ exports.getByDate = asyncH(async (req, res) => {
   const entries = [];
   for (const c of customers) {
     entries.push({
-      customer: { _id: c._id, name: c.name, area: c.area },
+      customer: { _id: c._id, name: c.name, area: c.area, phone: c.phone },
       customerName: c.name,
       sortOrder: c.sortOrder,
       loads: [],

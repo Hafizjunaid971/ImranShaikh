@@ -30,6 +30,8 @@ const parsePlus = (str) =>
     .filter((n) => Number.isFinite(n) && n !== 0);
 
 const joinPlus = (arr = []) => arr.map((x) => x.weight ?? x.amount ?? x).filter(Boolean).join('+');
+const SHOP_NAME = 'Shoaib Enter Price';
+const SHOP_PHONE = '+92 315 8957767';
 
 export default function DailySheet() {
   const { t } = useLang();
@@ -70,6 +72,7 @@ export default function DailySheet() {
         customerId: e.customer?._id || e.customer,
         customerName: e.customerName || e.customer?.name,
         area: e.customer?.area,
+        phone: e.phone || e.customer?.phone,
         loadsText: joinPlus(e.loads),
         recoveryText: joinPlus(e.recoveries),
       }));
@@ -246,6 +249,61 @@ export default function DailySheet() {
     }
   };
 
+  const printBill = (entry) => {
+    const printWindow = window.open('', '_blank', 'width=420,height=650');
+    if (!printWindow) {
+      show('Please allow pop-ups to print the bill.', 'error');
+      return;
+    }
+
+    const escapeHtml = (value) =>
+      String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+
+    printWindow.document.write(`
+      <!doctype html>
+      <html lang="en">
+        <head>
+          <meta charset="utf-8" />
+          <title>${escapeHtml(entry.customerName)}</title>
+          <style>
+            @page { size: 80mm auto; margin: 0; }
+            * { box-sizing: border-box; }
+            body { width: 80mm; margin: 0; padding: 5mm; color: #111; font: 13px Arial, sans-serif; }
+            h1 { margin: 0 0 2px; text-align: center; font-size: 18px; }
+            .meta { text-align: center; color: #555; font-size: 11px; margin-bottom: 10px; }
+            .line { display: flex; justify-content: space-between; gap: 8px; padding: 4px 0; border-bottom: 1px dashed #999; }
+            .label { color: #555; }
+            .strong { font-weight: 700; font-size: 15px; }
+            .total { border-top: 1px solid #111; margin-top: 4px; padding-top: 6px; }
+            .footer { margin-top: 12px; text-align: center; font-size: 10px; color: #666; }
+          </style>
+        </head>
+        <body>
+          <h1>${escapeHtml(SHOP_NAME)}</h1>
+          <div class="meta">${escapeHtml(SHOP_PHONE)}</div>
+          <div class="meta">${escapeHtml(date)}${entry.area ? ` — ${escapeHtml(entry.area)}` : ''}</div>
+          <div class="line strong"><span>${escapeHtml(t('daily.col.name'))}</span><span>${escapeHtml(entry.customerName)}</span></div>
+          ${entry.phone ? `<div class="line"><span class="label">${escapeHtml(t('customers.phone'))}</span><span>${escapeHtml(entry.phone)}</span></div>` : ''}
+          <div class="line"><span class="label">${escapeHtml(t('daily.col.weight'))}</span><span>${escapeHtml(fmtNum(entry.weight))}</span></div>
+          <div class="line"><span class="label">${escapeHtml(t('daily.col.rate'))}</span><span>${escapeHtml(fmtMoney(entry.rate))}</span></div>
+          <div class="line"><span class="label">${escapeHtml(t('daily.col.amount'))}</span><span>${escapeHtml(fmtMoney(entry.amount))}</span></div>
+          <div class="line"><span class="label">${escapeHtml(t('daily.col.prevBalance'))}</span><span>${escapeHtml(fmtMoney(entry.previousBalance))}</span></div>
+          <div class="line total strong"><span>${escapeHtml(t('daily.col.totalAmount'))}</span><span>${escapeHtml(fmtMoney(entry.totalAmount))}</span></div>
+          <div class="line"><span class="label">${escapeHtml(t('daily.col.recovery'))}</span></div>
+          <div class="line strong"><span>${escapeHtml(t('daily.col.newBalance'))}</span></div>
+          <div class="footer">${escapeHtml(SHOP_NAME)} — ${escapeHtml(SHOP_PHONE)}</div>
+          <script>window.onload = function () { window.print(); window.close(); };</script>
+        </body>
+      </html>
+    `);
+    printWindow.document.close();
+  };
+
   const shiftDay = (n) => {
     const d = new Date(date);
     d.setDate(d.getDate() + n);
@@ -268,8 +326,10 @@ export default function DailySheet() {
 
       <div className="page-head">
         <div>
-          <h1>{t('daily.title')}</h1>
+          <h1>{SHOP_NAME}</h1>
           <div className="sub">
+            <strong>{SHOP_PHONE}</strong>
+            {' — '}
             {isNew ? t('daily.newSheet') : t('daily.savedSheet')}
             {sheet.isLocked && <span className="chip warn" style={{ marginInlineStart: '.5rem' }}>{t('daily.locked')}</span>}
           </div>
@@ -330,6 +390,7 @@ export default function DailySheet() {
                 <th className="num">{t('daily.col.totalAmount')}</th>
                 <th className="num">{t('daily.col.recovery')}</th>
                 <th className="num">{t('daily.col.newBalance')}</th>
+                <th>{t('common.print')}</th>
               </tr>
             </thead>
             <tbody>
@@ -342,6 +403,7 @@ export default function DailySheet() {
                     <td className="sticky-name">
                       {e.customerName}
                       {e.area && <span className="muted"> — {e.area}</span>}
+                      {e.phone && <div className="muted" style={{ fontSize: '.78rem', lineHeight: 1.2 }}>{e.phone}</div>}
                     </td>
                     <td className="num">
                       <input
@@ -373,6 +435,11 @@ export default function DailySheet() {
                     </td>
                     <td className={`num ${e.closingBalance > 0 ? 'debit' : 'credit'}`}>
                       {fmtMoney(e.closingBalance)}
+                    </td>
+                    <td>
+                      <button className="btn ghost sm" onClick={() => printBill(e)}>
+                        {t('common.print')}
+                      </button>
                     </td>
                   </tr>
                 );

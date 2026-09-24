@@ -63,6 +63,7 @@ export default {
     nextDay: 'اگلا دن →',
     customersHeading: 'گاہک',
     searchName: 'نام تلاش کریں',
+    printBill: 'بل پرنٹ کریں',
     onlyToday: 'صرف آج کے',
     applyRateAll: 'سب پر ریٹ لگائیں',
     applyRatePrompt: 'جن لائنوں میں وزن ہے اُن سب پر کون سی ریٹ لگائیں؟',
