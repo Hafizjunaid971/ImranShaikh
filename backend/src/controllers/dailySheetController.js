@@ -128,14 +128,19 @@ exports.save = asyncH(async (req, res) => {
   sheet.entries = incoming.map((e) => {
     const c = cMap.get(String(e.customer));
     if (!c) throw new AppError(`گاہک نہیں ملا: ${e.customer}`, 400);
+
+    const loads = (e.loads || [])
+      .filter((l) => F.num(l.weight) !== 0)
+      .map((l) => ({ weight: F.num(l.weight), vehicleNo: l.vehicleNo, note: l.note }));
+
+    const derivedWeight = loads.length ? loads.reduce((sum, l) => sum + F.num(l.weight), 0) : F.num(e.weight);
+
     return {
       customer: c._id,
       customerName: c.name,
       sortOrder: c.sortOrder,
-      loads: (e.loads || [])
-        .filter((l) => F.num(l.weight) !== 0)
-        .map((l) => ({ weight: F.num(l.weight), vehicleNo: l.vehicleNo, note: l.note })),
-      weight: F.num(e.weight),
+      loads,
+      weight: derivedWeight,
       rate: F.num(e.rate),
       recoveries: (e.recoveries || [])
         .filter((r) => F.num(r.amount) !== 0)
@@ -322,13 +327,17 @@ exports.postToLedgers = asyncH(async (req, res) => {
  */
 exports.preview = asyncH(async (req, res) => {
   const computed = F.computeDailySheet({
-    entries: (req.body.entries || []).map((e) => ({
-      loads: e.loads || [],
-      weight: e.weight,
-      rate: e.rate,
-      previousBalance: e.previousBalance,
-      recoveries: e.recoveries || [],
-    })),
+    entries: (req.body.entries || []).map((e) => {
+      const loads = (e.loads || []).filter((l) => F.num(l.weight) !== 0);
+      const weight = loads.length ? loads.reduce((sum, l) => sum + F.num(l.weight), 0) : F.num(e.weight);
+      return {
+        loads,
+        weight,
+        rate: e.rate,
+        previousBalance: e.previousBalance,
+        recoveries: e.recoveries || [],
+      };
+    }),
     purchases: req.body.purchases || [],
     expenses: req.body.expenses || [],
     costing: req.body.costing || {},

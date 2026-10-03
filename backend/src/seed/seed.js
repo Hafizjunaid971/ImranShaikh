@@ -18,6 +18,7 @@ const ledgers = require('./ledgersData.json');
 
 const FRESH = process.argv.includes('--fresh');
 const d = (s) => new Date(`${s}T00:00:00.000Z`);
+const dayKey = (value) => new Date(value).toISOString().slice(0, 10);
 
 /* سپلائر — Excel کے rows 71..76 کے لیبل */
 const SUPPLIERS = [
@@ -193,10 +194,13 @@ async function run() {
 
   // --- بینک ٹرانزیکشنز ---
   const bankAcc = await BankAccount.findOne({ accountNo: ledgers.bank.accountNo }).lean();
-  if (bankAcc && (await BankTransaction.countDocuments({ account: bankAcc._id })) === 0) {
-    let serial = 1;
-    await BankTransaction.insertMany(
-      ledgers.bank.rows.map((r) => ({
+  if (bankAcc) {
+    const existing = await BankTransaction.find({ account: bankAcc._id }).lean();
+    const key = (r) => JSON.stringify([dayKey(r.date), r.reference || '', F.num(r.deposit), F.num(r.withdraw)]);
+    const seen = new Set(existing.map(key));
+    const missing = ledgers.bank.rows.filter((r) => !seen.has(key(r)));
+    let serial = existing.reduce((max, r) => Math.max(max, F.num(r.serial)), 0) + 1;
+    if (missing.length) await BankTransaction.insertMany(missing.map((r) => ({
         account: bankAcc._id,
         date: d(r.date),
         serial: serial++,
@@ -204,17 +208,21 @@ async function run() {
         deposit: F.num(r.deposit),
         withdraw: F.num(r.withdraw),
         createdBy: admin._id,
-      }))
-    );
+      })));
     await recalcBank(bankAcc._id, ledgers.bank.openingBalance);
-    console.log(`🏦 بینک کھاتہ: ${ledgers.bank.rows.length} اندراج`);
+    console.log(`🏦 بینک کھاتہ: ${missing.length} نئے اندراج`);
   }
 
   // --- پارٹی لیجر (عمران شیخ) ---
-  if ((await PartyLedger.countDocuments({ party: ledgers.party.name })) === 0) {
-    let serial = 1;
-    await PartyLedger.insertMany(
-      ledgers.party.rows.map((r) => ({
+  {
+    const existing = await PartyLedger.find({ party: ledgers.party.name }).lean();
+    const key = (r) => JSON.stringify([
+      dayKey(r.date), F.num(r.saleAmount), F.num(r.recoveryAmount), F.num(r.debit), F.num(r.credit), r.reference || '',
+    ]);
+    const seen = new Set(existing.map(key));
+    const missing = ledgers.party.rows.filter((r) => !seen.has(key(r)));
+    let serial = existing.reduce((max, r) => Math.max(max, F.num(r.serial)), 0) + 1;
+    if (missing.length) await PartyLedger.insertMany(missing.map((r) => ({
         party: ledgers.party.name,
         date: d(r.date),
         serial: serial++,
@@ -224,10 +232,9 @@ async function run() {
         credit: F.num(r.credit),
         reference: r.reference,
         createdBy: admin._id,
-      }))
-    );
+      })));
     await recalcParty(ledgers.party.name, 0);
-    console.log(`📘 پارٹی لیجر «${ledgers.party.name}»: ${ledgers.party.rows.length} اندراج`);
+    console.log(`📘 پارٹی لیجر «${ledgers.party.name}»: ${missing.length} نئے اندراج`);
   }
 
   // --- سپلائر لیجر (عمران ٹنڈوآدم، وحید بلوچ آڑتی) ---
@@ -235,9 +242,14 @@ async function run() {
     const src = ledgers.suppliers[key];
     const sup = await Supplier.findOne({ name: src.name }).lean();
     if (!sup) continue;
-    if ((await SupplierTransaction.countDocuments({ supplier: sup._id })) === 0) {
-      await SupplierTransaction.insertMany(
-        src.rows.map((r) => ({
+    const existing = await SupplierTransaction.find({ supplier: sup._id }).lean();
+    const keyOf = (r) => JSON.stringify([
+      dayKey(r.date), r.vehicleNo || '', F.num(r.weight), F.num(r.rate), F.num(r.paid), r.description || '',
+    ]);
+    const seen = new Set(existing.map(keyOf));
+    const missing = src.rows.filter((r) => !seen.has(keyOf(r)));
+    if (missing.length) {
+      await SupplierTransaction.insertMany(missing.map((r) => ({
           supplier: sup._id,
           date: d(r.date),
           vehicleNo: r.vehicleNo,
@@ -246,11 +258,10 @@ async function run() {
           paid: F.num(r.paid),
           description: r.description,
           createdBy: admin._id,
-        }))
-      );
-      await recalcSupplier(sup._id, src.openingBalance);
-      console.log(`🚚 سپلائر «${src.name}»: ${src.rows.length} اندراج`);
+        })));
     }
+    await recalcSupplier(sup._id, src.openingBalance);
+    console.log(`🚚 سپلائر «${src.name}»: ${missing.length} نئے اندراج`);
   }
 
   console.log('\n✅ سیڈنگ مکمل۔ اب `npm run verify` چلا کر فارمولے Excel سے ملا لیں۔');

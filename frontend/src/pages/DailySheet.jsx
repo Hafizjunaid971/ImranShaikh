@@ -150,13 +150,18 @@ export default function DailySheet() {
       const cur = sheetRef.current;
       if (!cur) return;
       const payload = {
-        entries: cur.entries.map((e) => ({
-          loads: parsePlus(e.loadsText).map((w) => ({ weight: w })),
-          weight: parsePlus(e.loadsText).length ? 0 : e.weight,
-          rate: e.rate,
-          previousBalance: e.previousBalance,
-          recoveries: parsePlus(e.recoveryText).map((a) => ({ amount: a })),
-        })),
+        entries: cur.entries.map((e) => {
+          const weights = parsePlus(e.loadsText);
+          //const totalWeight = weights.length ? weights.reduce((sum, w) => sum + w, 0) : e.weight;
+          const totalWeight = weights.length ? weights.reduce((sum, w) => sum + w, 0) : 0;
+          return {
+            loads: weights.map((w) => ({ weight: w })),
+            weight: totalWeight,
+            rate: e.rate,
+            previousBalance: e.previousBalance,
+            recoveries: parsePlus(e.recoveryText).map((a) => ({ amount: a })),
+          };
+        }),
         purchases: cur.purchases.map((p) => ({ weight: p.weight, rate: p.rate })),
         expenses: cur.expenses.map((x) => ({ amount: x.amount })),
         costing: {
@@ -228,14 +233,19 @@ export default function DailySheet() {
     try {
       const body = {
         date,
-        entries: sheet.entries.map((e) => ({
-          customer: e.customerId,
-          loads: parsePlus(e.loadsText).map((w) => ({ weight: w })),
-          weight: parsePlus(e.loadsText).length ? 0 : e.weight,
-          rate: e.rate,
-          recoveries: parsePlus(e.recoveryText).map((a) => ({ amount: a, mode: 'cash' })),
-          note: e.note,
-        })),
+        entries: sheet.entries.map((e) => {
+          const weights = parsePlus(e.loadsText);
+          //const totalWeight = weights.length ? weights.reduce((sum, w) => sum + w, 0) : e.weight;
+          const totalWeight = weights.length ? weights.reduce((sum, w) => sum + w, 0) : 0;
+          return {
+            customer: e.customerId,
+            loads: weights.map((w) => ({ weight: w })),
+            weight: totalWeight,
+            rate: e.rate,
+            recoveries: parsePlus(e.recoveryText).map((a) => ({ amount: a, mode: 'cash' })),
+            note: e.note,
+          };
+        }),
         purchases: sheet.purchases
           .filter((p) => p.supplierId && (p.weight || p.rate))
           .map((p) => ({ supplier: p.supplierId, vehicleNo: p.vehicleNo, weight: p.weight, rate: p.rate })),
@@ -994,7 +1004,7 @@ export default function DailySheet() {
                   />
                 </div>
                 <div className="field" style={{ maxWidth: 150 }}>
-                  <label>{t('daily.totalCosting')}</label>
+                  <label>{t('daily.dailyCosting')}</label>
                   <input
                     className="num"
                     readOnly
