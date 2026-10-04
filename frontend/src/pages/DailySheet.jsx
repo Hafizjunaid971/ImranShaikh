@@ -69,7 +69,7 @@ export default function DailySheet() {
   const [rangeTo, setRangeTo] = useState(routeDate || today());
   const [rangeCustomer, setRangeCustomer] = useState('');
   const [rangeLoading, setRangeLoading] = useState(false);
-
+const [selectedIds, setSelectedIds] = useState(() => new Set());
   // aaj ke loaded sheet se customer names ki list (name select/search ke liye)
   const customerOptions = sheet
     ? [...new Set(sheet.entries.map((e) => e.customerName).filter(Boolean))].sort()
@@ -620,6 +620,132 @@ export default function DailySheet() {
     return true;
   });
 
+
+  //check box print function iMRAN BHAI ADDED
+  const toggleSelect = (id) => {
+  setSelectedIds((prev) => {
+    const next = new Set(prev);
+    next.has(id) ? next.delete(id) : next.add(id);
+    return next;
+  });
+};
+
+const toggleSelectAll = () => {
+  setSelectedIds((prev) =>
+    prev.size === rows.length ? new Set() : new Set(rows.map((e) => e.customerId))
+  );
+};
+
+/** Checkbox se select kiye gaye customers ko AAJ ki date ke sath print karta hai */
+const printSelected = () => {
+  const selected = sheet.entries.filter((e) => selectedIds.has(e.customerId));
+  if (!selected.length) {
+    show('Pehle kam az kam ek customer select karein', 'error');
+    return;
+  }
+
+  const printWindow = window.open('', '_blank', 'width=900,height=700');
+  if (!printWindow) {
+    show('Please allow pop-ups to print.', 'error');
+    return;
+  }
+
+  const esc = (v) =>
+    String(v ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+
+      const grand = selected.reduce(
+        (acc, e) => {
+          acc.weight += Number(e.weight || 0);
+          acc.amount += Number(e.amount || 0);
+          acc.recovery += Number(e.recovery || 0);
+          return acc;
+        },
+        { weight: 0, amount: 0, recovery: 0 }
+      );
+
+  const rowsHtml = selected
+    .map(
+      (e) => `
+    <tr>
+      <td>${esc(e.customerName)}${e.area ? ' — ' + esc(e.area) : ''}</td>
+      <td class="num">${esc(fmtNum(e.weight))}</td>
+      <td class="num">${esc(fmtNum(e.rate))}</td>
+      <td class="num">${esc(fmtMoney(e.amount))}</td>
+      <td class="num">${esc(fmtMoney(e.previousBalance))}</td>
+      <td class="num">${esc(fmtMoney(e.totalAmount))}</td>
+      <td class="num">${esc(fmtMoney(e.recovery))}</td>
+      <td class="num">${esc(fmtMoney(e.closingBalance))}</td>
+    </tr>`
+    )
+    .join('');
+
+  printWindow.document.write(`
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <title>Selected Customers — ${esc(date)}</title>
+        <style>
+          @page { size: A4; margin: 12mm; }
+          * { box-sizing: border-box; }
+          body { font: 12px Arial, sans-serif; color: #111; }
+          h1 { text-align: center; margin: 0 0 2px; font-size: 20px; }
+          .meta { text-align: center; color: #555; margin-bottom: 14px; }
+          table { width: 100%; border-collapse: collapse; }
+          th, td { border: 1px solid #999; padding: 5px 7px; }
+          th { background: #f0f0f0; }
+          .num { text-align: right; }
+          tfoot td { font-weight: 700; background: #f7f7f7; }
+          .print-bar { text-align: center; margin-top: 18px; }
+          .print-bar button {
+            font: 14px Arial, sans-serif; padding: 8px 22px; border-radius: 6px;
+            border: 1px solid #333; background: #222; color: #fff; cursor: pointer;
+          }
+          @media print { .print-bar { display: none; } }
+        </style>
+      </head>
+      <body>
+        <h1>${esc(SHOP_NAME)}</h1>
+        <div class="meta">${esc(SHOP_PHONE)} — ${esc(date)}</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th class="num">Weight</th>
+              <th class="num">Rate</th>
+              <th class="num">Amount</th>
+              <th class="num">Prev Balance</th>
+              <th class="num">Total Amount</th>
+              <th class="num">Recovery</th>
+              <th class="num">Closing Balance</th>
+            </tr>
+          </thead>
+          <tbody>${rowsHtml}</tbody>
+            <tfoot>
+        <tr>
+          <td>Total (${selected.length})</td>
+          <td class="num">${esc(fmtNum(grand.weight))}</td>
+          <td class="num"></td>
+          <td class="num">${esc(fmtMoney(grand.amount))}</td>
+          <td class="num"></td>
+          <td class="num"></td>
+          <td class="num">${esc(fmtMoney(grand.recovery))}</td>
+          <td class="num"></td>
+        </tr>
+      </tfoot>
+        </table>
+        <div class="print-bar">
+          <button onclick="window.print()">🖨 Print</button>
+        </div>
+      </body>
+    </html>
+  `);
+  printWindow.document.close();
+};
+
   return (
     <>
       <Toast toast={toast} onClose={clear} />
@@ -708,6 +834,13 @@ export default function DailySheet() {
                 {t('daily.applyRateAll')}
               </button>
             )}
+                  <button
+        className="btn gold sm"
+        onClick={printSelected}
+        disabled={selectedIds.size === 0}
+      >
+        Print Selected ({selectedIds.size})
+      </button>
           </div>
         </div>
 
@@ -724,6 +857,13 @@ export default function DailySheet() {
                 <th className="num">{t('daily.col.totalAmount')}</th>
                 <th className="num">{t('daily.col.recovery')}</th>
                 <th className="num">{t('daily.col.newBalance')}</th>
+                <th style={{ width: 30 }}>
+              <input
+                type="checkbox"
+                checked={rows.length > 0 && selectedIds.size === rows.length}
+                onChange={toggleSelectAll}
+              />
+            </th>
                 <th>{t('common.print')}</th>
               </tr>
             </thead>
@@ -770,7 +910,14 @@ export default function DailySheet() {
                     <td className={`num ${e.closingBalance > 0 ? 'debit' : 'credit'}`}>
                       {fmtMoney(e.closingBalance)}
                     </td>
-                    <td>
+                       <td>
+                    <input
+                      type="checkbox"
+                      checked={selectedIds.has(e.customerId)}
+                      onChange={() => toggleSelect(e.customerId)}
+                    />
+                  </td>
+                        <td>
                       <button className="btn ghost sm" onClick={() => printBill(e)}>
                         {t('common.print')}
                       </button>
