@@ -331,6 +331,7 @@ html[dir='ltr'] .rail { right: 0; left: var(--nav-w); }
 
 @media print {
   .nav, .rail, .btn { display: none !important; }
+  .customer-ledger-summary { display: none !important; }
   .main { padding: 0; }
   body { background: #fff; font-size: 12px; }
   .card { box-shadow: none; border: none; }

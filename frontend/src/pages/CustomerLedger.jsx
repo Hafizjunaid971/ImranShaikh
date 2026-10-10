@@ -60,7 +60,7 @@ export default function CustomerLedger() {
         </div>
       </div>
 
-      <div className="grid grid-4">
+      <div className="grid grid-4 customer-ledger-summary">
         <div className="stat">
           <div className="stat-label">{t('customerLedger.opening')}</div>
           <div className="stat-value">{fmtMoney(s.openingBalance)}</div>
