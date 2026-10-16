@@ -1,14 +1,21 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import api, { errMsg, fmtMoney, fmtNum } from '../api/client';
 import useToast from '../components/useToast';
 import { Toast, Empty } from '../components/Layout';
 import { useLang } from '../i18n/LangContext';
 
+const formatDateLabel = (dateStr) => {
+  if (!dateStr) return '';
+  const [year, month, day] = dateStr.split('-').map(Number);
+  return new Date(Date.UTC(year, month - 1, day)).toISOString().slice(0, 10);
+};
+
 export default function CustomerLedger() {
   const { t } = useLang();
   const { id } = useParams();
   const { toast, show, clear } = useToast();
+  const tableWrapRef = useRef(null);
   const [range, setRange] = useState({ from: '', to: '' });
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -29,6 +36,104 @@ export default function CustomerLedger() {
   if (!data) return <Empty>{t('common.noData')}</Empty>;
 
   const s = data.summary;
+
+  const printRange = () => {
+    const from = range.from || data.rows[0]?.date || '';
+    const to = range.to || data.rows[data.rows.length - 1]?.date || '';
+    const tableEl = tableWrapRef.current?.querySelector('table');
+    const scrollTop = tableWrapRef.current?.scrollTop || 0;
+    const scrollLeft = tableWrapRef.current?.scrollLeft || 0;
+    const printWindow = window.open('', '_blank', 'width=1100,height=900');
+
+    if (!printWindow) {
+      show(t('common.allowPopup') || 'Please allow pop-ups to print.', 'error');
+      return;
+    }
+
+    const rowsHtml = tableEl ? Array.from(tableEl.querySelectorAll('tbody > tr')).map((tr) => tr.outerHTML).join('') : '';
+    // const summaryHtml = `
+    //   <div class="summary-grid">
+    //     <div><span>${t('customerLedger.opening')}</span><strong>${fmtMoney(s.openingBalance)}</strong></div>
+    //     <div><span>${t('customerLedger.totalPurchase')}</span><strong>${fmtNum(s.totalWeight, 1)}</strong><small>${fmtMoney(s.totalAmount)} — ${t('dashboard.avgRate')} ${fmtNum(s.avgRate, 2)}</small></div>
+    //     <div><span>${t('customerLedger.totalRecovery')}</span><strong>${fmtMoney(s.totalRecovery)}</strong></div>
+    //     <div><span>${t('customerLedger.currentBalance')}</span><strong>${fmtMoney(s.closingBalance)}</strong></div>
+    //   </div>
+    // `;
+
+    printWindow.document.write(`<!doctype html>
+      <html>
+        <head>
+          <meta charset="UTF-8" />
+          <title>${data.customer.name} Ledger</title>
+          <style>
+            body { font-family: Arial, sans-serif; color: #1b2a3a; margin: 24px; }
+            .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 18px; }
+            .title { font-size: 24px; font-weight: 700; }
+            .meta { font-size: 12px; color: #46596c; }
+            .range { margin-top: 8px; font-size: 12px; }
+            .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(150px, 1fr)); gap: 12px; margin: 18px 0; }
+            .summary-grid > div { border: 1px solid #ddd; border-radius: 6px; padding: 10px 12px; background: #f8f8f8; }
+            .summary-grid span { display: block; font-size: 11px; color: #46596c; margin-bottom: 4px; }
+            .summary-grid strong { display: block; font-size: 18px; }
+            .summary-grid small { display: block; font-size: 11px; color: #46596c; margin-top: 3px; }
+            table { width: 100%; border-collapse: collapse; font-size: 12px; }
+            th, td { border: 1px solid #d9d9d9; padding: 6px 8px; text-align: left; }
+            th { background: #1b2a3a; color: #fff; }
+            .num { text-align: right; }
+            .credit { color: #1d6b4b; }
+            .debit { color: #a63a2b; }
+            .muted { color: #8a99a8; }
+            @media print { body { margin: 12mm; } }
+          </style>
+        </head>
+        <body>
+          <div class="header">
+            <div>
+              <div class="title">${data.customer.name}</div>
+              <div class="meta">${data.customer.area || t('customerLedger.ledger')} ${data.customer.phone ? `— ${data.customer.phone}` : ''}</div>
+              <div class="range">${from && to ? `${formatDateLabel(from)} - ${formatDateLabel(to)}` : t('customerLedger.ledger')}</div>
+            </div>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>${t('common.date')}</th>
+                <th class="num">${t('daily.col.weight')}</th>
+                <th class="num">${t('daily.col.rate')}</th>
+                <th class="num">${t('daily.col.amount')}</th>
+                <th class="num">${t('daily.col.prevBalance')}</th>
+                <th class="num">${t('daily.col.totalAmount')}</th>
+                <th class="num">${t('party.recovery')}</th>
+                <th class="num">${t('daily.col.newBalance')}</th>
+              </tr>
+            </thead>
+            <tbody>${rowsHtml}</tbody>
+            <tfoot>
+              <tr>
+                <td>${t('common.total')}</td>
+                <td class="num">${fmtNum(s.totalWeight, 1)}</td>
+                <td class="num">${fmtNum(s.avgRate, 2)}</td>
+                <td class="num">${fmtMoney(s.totalAmount)}</td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num">${fmtMoney(s.totalRecovery)}</td>
+                <td class="num">${fmtMoney(s.closingBalance)}</td>
+              </tr>
+            </tfoot>
+          </table>
+          <script>
+            window.onload = function () { window.print(); setTimeout(() => window.close(), 300); };
+          </script>
+        </body>
+      </html>
+    `);
+
+    printWindow.document.close();
+    if (tableWrapRef.current) {
+      tableWrapRef.current.scrollTop = scrollTop;
+      tableWrapRef.current.scrollLeft = scrollLeft;
+    }
+  };
 
   return (
     <>
@@ -54,7 +159,7 @@ export default function CustomerLedger() {
           <button className="btn" onClick={load}>
             {t('common.show')}
           </button>
-          <button className="btn ghost" onClick={() => window.print()}>
+          <button className="btn ghost" onClick={printRange}>
             {t('common.print')}
           </button>
         </div>
@@ -85,7 +190,7 @@ export default function CustomerLedger() {
         {data.rows.length === 0 ? (
           <Empty>{t('customerLedger.noBusiness')}</Empty>
         ) : (
-          <div className="table-wrap">
+          <div className="table-wrap" ref={tableWrapRef}>
             <table>
               <thead>
                 <tr>
