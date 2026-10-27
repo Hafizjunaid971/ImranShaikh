@@ -13,6 +13,7 @@ import BankLedger from './pages/BankLedger';
 import PartyLedger from './pages/PartyLedger';
 import Reports from './pages/Reports';
 import Users from './pages/Users';
+import ImportExcel from './pages/ImportExcel';
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="party/:party" element={<PartyLedger />} />
         <Route path="reports" element={<Reports />} />
         <Route path="users" element={<Users />} />
+        {/* <Route path="import" element={<ImportExcel />} /> */}
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

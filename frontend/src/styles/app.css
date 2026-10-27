@@ -18,6 +18,7 @@
   --shadow: 0 1px 0 var(--rule), 0 8px 24px -18px rgba(27, 42, 58, 0.55);
   --radius: 4px;
   --nav-w: 232px;
+  --thcolor:#050d16;
 }
 
 * { box-sizing: border-box; }
@@ -168,7 +169,7 @@ a { color: var(--ink); }
 }
 table { width: 100%; border-collapse: collapse; font-size: .9rem; }
 thead th {
-  background: var(--ink);
+  background: var(--thcolor);
   color: #eaf0f6;
   font-weight: 600;
   text-align: right;
@@ -336,3 +337,18 @@ html[dir='ltr'] .rail { right: 0; left: var(--nav-w); }
   body { background: #fff; font-size: 12px; }
   .card { box-shadow: none; border: none; }
 }
+
+
+/* ------------------------------------------------- امپورٹ: حالت کے ٹیگ */
+.pill {
+  display: inline-block;
+  padding: 0 .55rem;
+  border-radius: 999px;
+  font-size: .78rem;
+  line-height: 1.6;
+  border: 1px solid var(--rule-strong);
+  white-space: nowrap;
+}
+.pill.ok { color: var(--credit); border-color: var(--credit); background: #e8f3ee; }
+.pill.skip { color: var(--ink-soft); background: #eee9dc; }
+.pill.warn { color: var(--debit); border-color: var(--debit); background: #f8e9e6; }

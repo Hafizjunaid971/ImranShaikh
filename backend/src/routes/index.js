@@ -9,6 +9,7 @@ const daily = require('../controllers/dailySheetController');
 const ledger = require('../controllers/ledgerController');
 const report = require('../controllers/reportController');
 const exportCtrl = require('../controllers/exportController');
+const importCtrl = require('../controllers/importController');
 
 /* ------------------------------------------------------------- health --- */
 router.get('/health', (req, res) =>
@@ -130,5 +131,10 @@ router.get('/reports/day-comparison', protect, report.dayComparison);
 
 /* -------------------------------------------------------------- export --- */
 router.get('/export/excel', protect, exportCtrl.exportExcel);
+
+/* -------------------------------------------------------------- import --- */
+/* Excel فائل (base64 JSON) → preview دیکھیں → commit سے صرف نیا ڈیٹا ڈیٹابیس میں */
+router.post('/import/preview', protect, allow('admin', 'manager'), importCtrl.preview);
+router.post('/import/commit', protect, allow('admin', 'manager'), importCtrl.commit);
 
 module.exports = router;

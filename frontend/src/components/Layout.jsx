@@ -57,6 +57,7 @@ export default function Layout() {
             {t(`nav.${l.key}`)}
           </NavLink>
         ))}
+        {can('admin', 'manager') && <NavLink to="/import">{t('nav.import')}</NavLink>}
         {can('admin') && <NavLink to="/users">{t('nav.users')}</NavLink>}
 
         <div className="nav-foot">
