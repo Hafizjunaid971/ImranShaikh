@@ -169,8 +169,8 @@ a { color: var(--ink); }
 }
 table { width: 100%; border-collapse: collapse; font-size: .9rem; }
 thead th {
-  background: var(--thcolor);
-  color: #eaf0f6;
+  background: var(--ink);
+  color: var(--thcolor);
   font-weight: 600;
   text-align: right;
   padding: .5rem .55rem;
