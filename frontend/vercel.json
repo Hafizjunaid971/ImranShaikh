@@ -1,5 +1,22 @@
+
 {
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "karachi-poultry-supply21.vercel.app"
+        }
+      ],
+      "destination": "https://www.alithakurpoultrygroup.com/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
